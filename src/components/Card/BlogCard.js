@@ -4,7 +4,7 @@ const BlogCard = () => {
   return (
     <React.Fragment>
       <div className="max-w-sm w-full md:w-10/12 md:max-w-full md:flex md:justify-center  my-10">
-        <div></div>
+        <div className="h-56 md:h-auto md:w-48 flex-none bg-cover  text-center overflow-hidden shadow-xl"></div>
         <div>
           <div>Can coffee make you a better developer?</div>
           <p>
