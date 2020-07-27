@@ -11,7 +11,7 @@ const BlogCard = () => {
           }}
         ></div>
         <div className=" bg-purple-700  p-4 flex flex-col justify-between leading-normal shadow-xl">
-          <div>Can coffee make you a better developer?</div>
+          <div className="mb-8">Can coffee make you a better developer?</div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Voluptatibus quia, nulla! Maiores et perferendis eaque,
