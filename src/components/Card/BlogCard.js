@@ -15,7 +15,7 @@ const BlogCard = () => {
             <div className="text-gray-100 font-bold text-xl mb-2">
               Can coffee make you a better developer?
             </div>
-            <p>
+            <p className="text-gray-100 text-base md:w-9/12s">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil. Lorem ipsum dolor sit amet,
