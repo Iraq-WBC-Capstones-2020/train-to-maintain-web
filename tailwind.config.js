@@ -8,6 +8,9 @@ module.exports = {
         'pink-project': '#FF619A',
         'darkgray-project ': '#272727',
       },
+      fontFamily: {
+        'font-project': ['Poppins'],
+      },
     },
   },
   variants: {},
