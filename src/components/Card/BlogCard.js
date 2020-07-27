@@ -10,7 +10,7 @@ const BlogCard = () => {
             backgroundImage: "url('https://tailwindcss.com/img/card-top.jpg')",
           }}
         ></div>
-        <div className=" bg-purple-project  p-4 flex flex-col justify-between leading-normal shadow-xl">
+        <div className=" bg-purple-project  p-4 flex flex-col justify-between leading-normal shadow-xl font-font-project">
           <div className="mb-8">
             <div className="text-gray-100 font-bold text-xl mb-2">
               Can coffee make you a better developer?
