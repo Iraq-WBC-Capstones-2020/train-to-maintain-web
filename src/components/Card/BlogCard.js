@@ -3,7 +3,7 @@ import React from 'react';
 const BlogCard = () => {
   return (
     <React.Fragment>
-      <div className="max-w-sm w-full md:w-10/12 md:max-w-full md:flex md:justify-center  my-10">
+      <div className="max-w-sm w-full md:w-11/12 lg:w-10/12 md:max-w-full md:flex md:justify-center  my-10">
         <div
           className="h-56 md:h-auto md:w-48 flex-none bg-cover  text-center overflow-hidden shadow-xl"
           style={{
