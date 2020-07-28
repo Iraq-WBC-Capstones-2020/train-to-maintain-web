@@ -3,13 +3,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'purple-project': '#4527A0',
-        'offwhite-project': '#f2f2f2',
-        'pink-project': '#FF619A',
-        'darkgray-project ': '#272727',
+        primary: '#4527A0',
+        secondary: '#f2f2f2',
+        pinky: '#FF619A',
+        darkgray: '#272727',
       },
       fontFamily: {
-        'font-project': ['Poppins'],
+        poppins: ['Poppins'],
       },
     },
   },
