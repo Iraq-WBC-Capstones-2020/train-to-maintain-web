@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 const BlogCard = () => {
   return (
     <motion.div
+      data-testid="blogcard"
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
       className="max-w-sm w-full md:w-11/12 lg:w-10/12 md:max-w-full md:flex md:justify-center  my-10"
