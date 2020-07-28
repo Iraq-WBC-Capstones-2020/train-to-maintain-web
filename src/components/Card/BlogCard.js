@@ -8,6 +8,8 @@ const BlogCard = () => {
           className="h-56 md:h-auto md:w-48 flex-none bg-cover  text-center overflow-hidden shadow-xl"
           style={{
             backgroundImage: "url('https://tailwindcss.com/img/card-top.jpg')",
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
           }}
         ></div>
         <div className=" bg-purple-project  p-4 flex flex-col justify-between leading-normal shadow-xl font-font-project">
