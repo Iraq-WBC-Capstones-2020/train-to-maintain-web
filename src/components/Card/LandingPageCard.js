@@ -1,5 +1,5 @@
 import React from 'react';
-
+import propTypes from 'props-types';
 const LandingPageCard = ({ image, title }) => {
   return (
     <>
@@ -14,5 +14,9 @@ const LandingPageCard = ({ image, title }) => {
       </div>
     </>
   );
+};
+LandingPageCard.propTypes = {
+  title: propTypes.string.isRequierd,
+  image: propTypes.string.isRequierd,
 };
 export default LandingPageCard;
