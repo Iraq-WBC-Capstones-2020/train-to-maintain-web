@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-const BlogCard = () => {
+import propTypes from 'prop-types';
+const BlogCard = ({ title, overview, imgUrl, authorName, publishDate }) => {
   return (
     <motion.div
       data-testid="blogcard"
@@ -44,5 +45,18 @@ const BlogCard = () => {
     </motion.div>
   );
 };
-
+BlogCard.propTypes = {
+  title: propTypes.string.isRequired,
+  overview: propTypes.string.isRequired,
+  imgUrl: propTypes.string.isRequired,
+  authorName: propTypes.string.isRequired,
+  publishDate: propTypes.string.isRequired,
+};
+BlogCard.defaultProps = {
+  title: 'Blog titles',
+  overview: 'the overview of the blog post',
+  imgUrl: "https://tailwindcss.com/img/card-top.jpg'",
+  authorName: 'Evan Hameed',
+  publishDate: 'jul 19',
+};
 export default BlogCard;
