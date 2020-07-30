@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-
+import { motion } from 'framer-motion';
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
@@ -27,7 +27,7 @@ const Navbar = () => {
               </div>
             </a>
             <button
-              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none "
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -37,7 +37,7 @@ const Navbar = () => {
           <div
             className={
               'lg:flex flex-grow items-center' +
-              (navbarOpen ? ' flex' : ' hidden')
+              (navbarOpen ? ' flex h-screen ' : ' hidden')
             }
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
