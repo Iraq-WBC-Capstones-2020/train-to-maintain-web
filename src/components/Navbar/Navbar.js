@@ -39,7 +39,6 @@ const Navbar = () => {
               'lg:flex flex-grow items-center' +
               (navbarOpen ? ' flex' : ' hidden')
             }
-            id="example-navbar-danger"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
