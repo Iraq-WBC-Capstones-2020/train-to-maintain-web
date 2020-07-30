@@ -37,7 +37,7 @@ const Navbar = () => {
           <div
             className={
               'lg:flex flex-grow items-center' +
-              (navbarOpen ? ' flex h-screen ' : ' hidden')
+              (navbarOpen ? ' flex lg:h-full h-screen ' : ' hidden')
             }
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
