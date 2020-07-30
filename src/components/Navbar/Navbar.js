@@ -4,6 +4,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const variants = {
+    open: { opacity: 1, x: 0 },
+    closed: { opacity: 0, x: '-100%' },
+  };
   return (
     <React.Fragment>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-darkgray navbar-expand-lg   mb-3 font-poppins">
