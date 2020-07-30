@@ -31,11 +31,7 @@ const Navbar = () => {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              {navbarOpen ? (
-                <FontAwesomeIcon icon={faTimes} />
-              ) : (
-                <FontAwesomeIcon icon={faBars} />
-              )}
+              <FontAwesomeIcon icon={navbarOpen ? faTimes : faBars} />
             </button>
           </div>
           <div
