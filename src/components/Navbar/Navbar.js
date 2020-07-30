@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -31,7 +31,11 @@ const Navbar = () => {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <FontAwesomeIcon icon={faBars} />
+              {navbarOpen ? (
+                <FontAwesomeIcon icon={faTimes} />
+              ) : (
+                <FontAwesomeIcon icon={faBars} />
+              )}
             </button>
           </div>
           <div
