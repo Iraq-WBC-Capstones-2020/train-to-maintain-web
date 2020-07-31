@@ -1,0 +1,8 @@
+.SideNav {
+  transition: transform 0.4s ease-out;
+  transform: translateX(500px);
+}
+
+.SideNav.open {
+  transform: translateX(0px);
+}
