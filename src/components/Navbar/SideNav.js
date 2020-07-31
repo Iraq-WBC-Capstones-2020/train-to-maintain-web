@@ -14,10 +14,13 @@ const SideBar = (props) => {
         sideNavClasses
       }
     >
-      <button className="m-3" onClick={() => props.handleHamClick()}>
+      <button
+        className="m-3 bg-pinky absolute top-0 left-0"
+        onClick={() => props.handleHamClick()}
+      >
         <FontAwesomeIcon icon={faTimes} />
       </button>
-      <ul className="h-full flex flex-col justify-around items-center  ">
+      <ul className="h-full flex flex-col justify-around items-center   ">
         <li>
           <a href="#">HOME</a>
         </li>
