@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
-
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const textElement = getByText(/train to maintain/i);
-  expect(textElement).toBeInTheDocument();
+import Navbar from './components/Navbar/Navbar';
+import BlogCard from './components/Card/BlogCard/BlogCard';
+test('render children succesfully', () => {
+  render(<Navbar />);
+  render(<BlogCard />);
 });
