@@ -11,11 +11,8 @@ const Navbar = () => {
   return (
     <>
       <Toolbar navbarOpen={navbarOpen} handleHamClick={handleHamClick} />
-      {navbarOpen ? (
-        <SideNav handleHamClick={handleHamClick} navbarOpen={navbarOpen} />
-      ) : (
-        ''
-      )}
+
+      <SideNav handleHamClick={handleHamClick} navbarOpen={navbarOpen} />
     </>
   );
 };
