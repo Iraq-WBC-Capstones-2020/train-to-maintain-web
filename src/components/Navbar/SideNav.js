@@ -9,7 +9,7 @@ const SideBar = (props) => {
   return (
     <nav
       className={
-        `bg-pinky h-screen w-3/4 md:w-2/4  fixed top-0 right-0 z-10 text-white lg:hidden ` +
+        `bg-darkgray h-screen w-3/4 md:w-2/4  fixed top-0 right-0 z-10 text-white lg:hidden ` +
         drawerClasses
       }
     >
