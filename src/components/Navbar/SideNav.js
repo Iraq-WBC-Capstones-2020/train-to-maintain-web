@@ -2,16 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 const SideBar = (props) => {
-  let drawerClasses = 'drawer';
-  if (props.navbarOpen === true) {
-    drawerClasses = 'drawer open';
-  }
   return (
     <nav
-      className={
-        `bg-darkgray h-screen w-3/4 md:w-2/4  fixed top-0 right-0 z-10 text-white lg:hidden ` +
-        drawerClasses
-      }
+      className={`bg-darkgray h-screen w-3/4 md:w-2/4  fixed top-0 right-0 z-10 text-white lg:hidden `}
     >
       <button className="m-3" onClick={() => props.handleHamClick()}>
         <FontAwesomeIcon icon={faTimes} />
