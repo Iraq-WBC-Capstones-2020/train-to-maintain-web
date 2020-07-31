@@ -15,7 +15,7 @@ const SideBar = (props) => {
       }
     >
       <button
-        className="m-3 bg-pinky absolute top-0 left-0"
+        className="m-3  absolute top-0 left-0"
         onClick={() => props.handleHamClick()}
       >
         <FontAwesomeIcon icon={faTimes} />
