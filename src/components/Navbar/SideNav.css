@@ -1,9 +1,0 @@
-.SideNav {
-  transition: transform 0.4s ease-out;
-  transform: translateX(100%);
-}
-
-.SideNav.open {
-  transform: translateX(0px);
-  box-shadow: 0px 0px 15px #232931;
-}
