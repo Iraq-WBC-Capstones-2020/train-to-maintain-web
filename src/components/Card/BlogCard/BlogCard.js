@@ -12,33 +12,28 @@ const BlogCard = ({ title, overview, imgUrl, authorName, publishDate }) => {
       <div
         className="h-56 md:h-auto md:w-64 flex-none bg-cover  text-center overflow-hidden shadow-2xl"
         style={{
-          backgroundImage: "url('https://tailwindcss.com/img/card-top.jpg')",
+          backgroundImage: `url(${imgUrl})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
         }}
       ></div>
       <div className=" bg-primary  p-4 flex flex-col justify-between leading-normal shadow-2xl font-bold">
         <div className="mb-8">
-          <div className=" text-secondary font-bold text-xl   ">
-            10 tips I wish I knew before I started to workout.
-          </div>
+          <div className=" text-secondary font-bold text-xl   ">{title}</div>
           <div className="flex align-center  justify-between w-56 mb-2 ">
             <p>
               <small className="text-xs   text-pinky font-bold opacity-75">
-                By Evan Hameed
+                By {authorName}
               </small>
             </p>
             <p>
               <small className="text-xs   text-pinky font-bold opacity-75">
-                Published on Jul 19
+                Published on {publishDate}
               </small>
             </p>
           </div>
           <p className="text-secondary  text-base md:w-9/12s mb-2">
-            If you have been planning to start working out for the last couple
-            of months but you always procrastinate about how, where, and when to
-            start, here are 10 tips that really helped throughout my journey and
-            I wish I knew from the beginning.
+            {overview}
           </p>
         </div>
       </div>
