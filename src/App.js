@@ -1,10 +1,9 @@
 import React from 'react';
-import BlogCard from './components/Card/BlogCard/BlogCard';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
-  return (
-    <div>
-    </div>
-  );
+  return <React.Fragment>
+
+  </React.Fragment>;
 }
 
 export default App;
