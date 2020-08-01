@@ -2,6 +2,13 @@ import React, { useState } from 'react';
 import './Footer.css';
 const Footer = () => {
   const [lang, setLang] = useState('English');
+  const toggleLanguage = () => {
+    if (lang === 'English') {
+      setLang('Arabic');
+    } else {
+      setLang('English');
+    }
+  };
   return (
     <footer className=" h-64 footer text-secondary font-poppins ">
       <div className=" md:flex h-48  pt-4 mb-4">
@@ -56,7 +63,7 @@ const Footer = () => {
         <div className="md:w-3/12 flex items-center justify-center">
           <div className="group inline-block text-poppins">
             <button className="outline-none focus:outline-none border px-3 py-1 bg-primary rounded-sm flex items-center min-w-32">
-              <span className="pr-1 font-semibold flex-1">English</span>
+              <span className="pr-1 font-semibold flex-1">{lang}</span>
               <span>
                 <svg
                   className="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -72,8 +79,11 @@ const Footer = () => {
               className="bg-primary border rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition duration-150 ease-in-out origin-top min-w-32"
             >
-              <li className="rounded-sm px-3 py-1 hover:bg-purple-700">
-                Arabic
+              <li
+                className="rounded-sm px-3 py-1 hover:bg-purple-700"
+                onClick={() => toggleLanguage()}
+              >
+                {lang === 'English' ? 'Arabic' : 'English'}
               </li>
             </ul>
           </div>
