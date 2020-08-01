@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
 const Footer = () => {
+  const [lang, setLang] = useState('English');
   return (
     <footer className=" h-64 footer text-secondary font-poppins ">
       <div className=" md:flex h-48  pt-4 mb-4">
