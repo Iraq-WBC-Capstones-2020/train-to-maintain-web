@@ -23,21 +23,31 @@ const footer = () => {
               </div>
             </a>
           </div>
-          <ul className="">
+          <ul>
             <li>
-              <a href="#">HOME</a>
+              <a className="hover:bg-primary" href="#">
+                HOME
+              </a>
             </li>
             <li>
-              <a href="#">WORKOUTS</a>
+              <a className="hover:bg-primary" href="#">
+                WORKOUTS
+              </a>
             </li>
             <li>
-              <a href="#">MEALS</a>
+              <a className="hover:bg-primary" href="#">
+                MEALS
+              </a>
             </li>
             <li>
-              <a href="#">BUNDLES</a>
+              <a className="hover:bg-primary" href="#">
+                BUNDLES
+              </a>
             </li>
             <li>
-              <a href="#">ABOUT</a>
+              <a className="hover:bg-primary" href="#">
+                ABOUT
+              </a>
             </li>
           </ul>
         </div>
