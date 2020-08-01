@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-const footer = () => {
+const Footer = () => {
   return (
     <footer className=" h-64 footer text-secondary font-poppins ">
       <div className=" md:flex h-48  pt-4 mb-4">
@@ -86,4 +86,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
