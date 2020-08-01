@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="md:w-3/12 flex items-center justify-center">
-          <div className="group inline-block text-poppins">
+          <div className="group inline-block text-poppins text-secondary">
             <button className="outline-none focus:outline-none border px-3 py-1 bg-primary rounded-sm flex items-center min-w-32">
               <span className="pr-1 font-semibold flex-1">{lang}</span>
               <span>
