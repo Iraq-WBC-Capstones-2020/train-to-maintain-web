@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
-const Toolbar = (props) => {
+const Toolbar = ({ navbarOpen, handleToggleMenuClick }) => {
   return (
     <React.Fragment>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-darkgray navbar-expand-lg   font-poppins">
@@ -27,9 +27,9 @@ const Toolbar = (props) => {
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none "
               type="button"
-              onClick={() => props.handleHamClick()}
+              onClick={() => handleToggleMenuClick()}
             >
-              <FontAwesomeIcon icon={props.navbarOpen ? faTimes : faBars} />
+              <FontAwesomeIcon icon={navbarOpen ? faTimes : faBars} />
             </button>
           </div>
           <div className={' hidden lg:flex flex-grow items-center'}>

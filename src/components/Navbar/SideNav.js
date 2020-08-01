@@ -2,9 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import './SideNav.css';
-const SideBar = (props) => {
+const SideBar = ({ navbarOpen, handleToggleMenuClick }) => {
   let sideNavClasses = 'SideNav';
-  if (props.navbarOpen) {
+  if (navbarOpen) {
     sideNavClasses = 'SideNav open';
   }
   return (
@@ -16,7 +16,7 @@ const SideBar = (props) => {
     >
       <button
         className="m-3  absolute top-0 left-0"
-        onClick={() => props.handleHamClick()}
+        onClick={() => handleToggleMenuClick()}
       >
         <FontAwesomeIcon icon={faTimes} />
       </button>
