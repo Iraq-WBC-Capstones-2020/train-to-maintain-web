@@ -5,8 +5,6 @@ function App() {
   return (
     <div>
       <BlogCard />
-      <BlogCard />
-      <BlogCard />
     </div>
   );
 }
