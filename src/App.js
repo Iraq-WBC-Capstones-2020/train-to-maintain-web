@@ -19,6 +19,7 @@ const DefaultRoutes = () => {
         <Route path="/meals" component={Meals} />
         <Route path="/workouts" component={Workouts} />
         <Route path="/about" component={About} />
+        <Route path="/blogs" component={Blogs} />
         <Route component={RedirectToNotFound} />
       </Switch>
       <Footer />
