@@ -1,5 +1,4 @@
 import React from 'react';
-
 function WorkoutCard(props) {
   return (
     <div class="max-w-sm rounded overflow-hidden shadow-lg font-poppins ">
