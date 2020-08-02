@@ -1,5 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
 import LandingPage from './containers/LandingPage/LandingPage';
 import Home from './containers/Home/Home';
 import About from './containers/About/About';
@@ -9,7 +14,7 @@ import Blogs from './containers/Blogs/Blogs';
 import NotFound from './containers/NotFound/NotFound';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import RedirectToNotFound from './containers/NotFound/RedirectToNotFound';
+
 const DefaultRoutes = () => {
   return (
     <>
@@ -20,7 +25,7 @@ const DefaultRoutes = () => {
         <Route path="/workouts" component={Workouts} />
         <Route path="/about" component={About} />
         <Route path="/blogs" component={Blogs} />
-        <Route component={RedirectToNotFound} />
+        <Redirect to="notfound" />
       </Switch>
       <Footer />
     </>
