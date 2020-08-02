@@ -6,7 +6,7 @@ function App() {
       <h1 className="text-3xl text-purple-500">Train To Maintain</h1>
       <LandingPageCard
         image={
-          'https://live.staticflickr.com/1922/30712761087_9657616fea_b.jpg'
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-1Vza7eYtgTe8genL0nMzwzgh2OAVChbG7w&usqp=CAU'
         }
         title={'Meals'}
       />
