@@ -11,11 +11,15 @@ function App() {
         author="Evan Hameed"
         publishDate="jul 19"
       />
-        <LandingPageCard
-        image={'https://live.staticflickr.com/1922/30712761087_9657616fea_b.jpg'}
-        title={'Meals'} />
+      <LandingPageCard
+        image={
+          'https://live.staticflickr.com/1922/30712761087_9657616fea_b.jpg'
+        }
+        title={'Meals'}
+      />
     </div>
   );
 }
 
 export default App;
+
