@@ -1,4 +1,6 @@
 import React from 'react';
+import propTypes from 'prop-types';
+import img from './components/MealType/img/wtgain.png';
 
 const MealType = ({ title, imgUrl }) => {
   return (
@@ -18,5 +20,12 @@ const MealType = ({ title, imgUrl }) => {
     </div>
   );
 };
-
+MealType.propTypes = {
+  title: propTypes.string.isRequired,
+  imgUrl: propTypes.string.isRequired,
+};
+MealType.defaultProps = {
+  title: 'Gain weight',
+  imgUrl: { img },
+};
 export default MealType;
