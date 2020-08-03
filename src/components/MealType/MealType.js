@@ -1,6 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import img from './components/MealType/img/wtgain.png';
+import img from './img/wtgain.png';
 
 const MealType = ({ title, imgUrl }) => {
   return (
