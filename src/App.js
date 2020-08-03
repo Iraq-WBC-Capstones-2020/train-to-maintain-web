@@ -1,16 +1,48 @@
 import React from 'react';
-import BlogCard from './components/Card/BlogCard/BlogCard';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
+import LandingPage from './containers/LandingPage/LandingPage';
+import Home from './containers/Home/Home';
+import About from './containers/About/About';
+import Meals from './containers/Meals/Meals';
+import Workouts from './containers/Workouts/Workouts';
+import Blogs from './containers/Blogs/Blogs';
+import NotFound from './containers/NotFound/NotFound';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+
+const DefaultRoutes = () => {
+  return (
+    <>
+      <Navbar />
+      <Switch>
+        <Route path="/home" component={Home} />
+        <Route path="/meals" component={Meals} />
+        <Route path="/workouts" component={Workouts} />
+        <Route path="/about" component={About} />
+        <Route path="/blogs" component={Blogs} />
+        <Redirect to="notfound" />
+      </Switch>
+      <Footer />
+    </>
+  );
+};
+
 function App() {
   return (
-    <div>
-      <BlogCard
-        title="10 tips I wish I knew before I started to workout."
-        imgUrl="https://tailwindcss.com/img/card-top.jpg"
-        overview="If you have been planning to start working out for the last couple of months but you always procrastinate about how, where, and when to start, here are 10 tips that really helped throughout my journey and I wish I knew from the beginning"
-        author="Evan Hameed"
-        publishDate="jul 19"
-      />
-    </div>
+    <>
+      <Router>
+        <Switch>
+          <Route component={NotFound} path="/notfound" />
+          <Route exact path="/" component={LandingPage} />
+          <Route component={DefaultRoutes} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
