@@ -1,9 +1,10 @@
 import React from 'react';
+import RecipeCard from './components/Cards/Recipe-Card/Recipe-Card'
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl text-purple-500">Train To Maintain</h1>
+      <RecipeCard />
     </div>
   );
 }
