@@ -12,7 +12,7 @@ const Navbar = () => {
     setNavbarOpen(false);
   };
   return (
-    <>
+    <div data-testid="navbar">
       <Toolbar
         navbarOpen={navbarOpen}
         handleToggleMenuClick={handleToggleMenuClick}
@@ -23,7 +23,7 @@ const Navbar = () => {
         navbarOpen={navbarOpen}
         handleToggleMenuNavClick={handleToggleMenuNavClick}
       />
-    </>
+    </div>
   );
 };
 

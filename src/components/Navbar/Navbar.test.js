@@ -1,11 +1,13 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './Navbar';
-test('Navbar renders succesfully', () => {
-  <Router>
-    render(
-    <Navbar />
-    );
-  </Router>;
+import { BrowserRouter as Router } from 'react-router-dom';
+test('renders learn react link', () => {
+  const { getByTestId } = render(
+    <Router>
+      <Navbar />
+    </Router>
+  );
+  const textElement = getByTestId('navbar');
+  expect(textElement).toBeInTheDocument();
 });
