@@ -24,13 +24,14 @@ export default function RecipeCard({
         >
           See Recipe
         </button>
-        <div className="my-4 flex justify-around items-center">
-          <div className=" flex flex-col justify-around items-center">
+
+        <div className="my-4 flex flex-wrap justify-around items-center">
+          <div className=" flex flex-col justify-around items-center w-1/3">
             <img
               src={require('./img/calories-icon.png')}
-              className="xl:w-1/4 py-2"
+              className="w-1/4 py-2"
             />
-            <span className="inline-block bg-gray-200 rounded-full text-sm font-semibold text-gray-700">
+            <span className="bg-gray-200 rounded-full text-sm font-semibold text-black text-center">
               <p>170 calories</p>
             </span>
           </div>
