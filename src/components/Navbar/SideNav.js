@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import './SideNav.css';
 import { Link } from 'react-router-dom';
-import { useSwipeable, Swipeable } from 'react-swipeable';
+import { Swipeable } from 'react-swipeable';
 import PropTypes from 'prop-types';
 const SideNav = ({
   navbarOpen,
