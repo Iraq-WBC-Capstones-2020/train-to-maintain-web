@@ -1,5 +1,5 @@
 import React from 'react';
-import RecipeCard from './components/Cards/Recipe-Card/Recipe-Card'
+import RecipeCard from './components/Cards/Recipe-Card/Recipe-Card';
 
 function App() {
   return (
