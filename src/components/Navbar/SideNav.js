@@ -18,7 +18,7 @@ const SideNav = ({
     <Swipeable onSwiped={handleToggleMenuNavClick}>
       <nav
         className={
-          `bg-darkgray h-screen w-3/4 md:w-2/4  fixed top-0 right-0 z-10 text-secondary lg:hidden ` +
+          `bg-darkgray h-screen w-3/4 md:w-2/4  fixed top-0 right-0 z-10 text-secondary lg:hidden flex flex-col justify-evenly ` +
           sideNavClasses
         }
       >
@@ -28,7 +28,7 @@ const SideNav = ({
         >
           <FontAwesomeIcon icon={faTimes} />
         </button>
-        <ul className="h-full flex flex-col justify-evenly items-center">
+        <ul className="h-64 flex flex-col justify-evenly items-center">
           <li>
             <Link
               onClick={handleToggleMenuNavClick}
