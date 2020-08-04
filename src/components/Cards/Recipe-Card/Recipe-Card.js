@@ -8,6 +8,7 @@ export default function RecipeCard(props) {
         src={require('./img/breakfast3.png')}
         alt="breakfast"
       />
+      <div></div>
       <div className="px-6 py-4 flex flex-col justify-around items-center ">
         <h1 className="text-black-700 text-base font-bold text-xl mb-2 text-center">
           Kiwi, Greek yogurt <br />& blueberries
@@ -19,35 +20,36 @@ export default function RecipeCard(props) {
         >
           See Recipe
         </button>
-        <div className="my-4 flex justify-around items-center">
-          <div className=" flex flex-col justify-around items-center">
+
+        <div className="my-4 flex flex-wrap justify-around items-center">
+          <div className=" flex flex-col justify-around items-center w-1/3">
             <img
               src={require('./img/calories-icon.png')}
-              className="xl:w-1/4 py-2"
+              className="w-1/4 py-2"
             />
-            <span className="inline-block bg-gray-200 rounded-full text-sm font-semibold text-gray-700">
+            <span className="bg-gray-200 rounded-full text-sm font-semibold text-black text-center">
               <p>170 calories</p>
             </span>
           </div>
 
-          <div className=" flex flex-col justify-around items-center">
+          <div className="flex flex-col justify-around items-center w-1/3">
             <img
               src={require('./img/meal-icon.png')}
               alt="Meal category"
-              className="xl:w-1/4 py-2"
+              className="w-1/4 py-2"
             ></img>
-            <span className="inline-block bg-gray-200 rounded-full  text-sm font-semibold text-gray-700 mr-2">
+            <span className=" bg-gray-200 rounded-full  text-sm font-semibold text-black mr-2">
               <p>170 calories</p>
             </span>
           </div>
 
-          <div className=" flex flex-col justify-around items-center">
+          <div className=" flex flex-col justify-around items-center w-1/3">
             <img
               src={require('./img/clock.svg')}
               alt="Meal Preparation time"
-              className="xl:w-1/4 py-2"
+              className="w-1/4 py-2"
             ></img>
-            <span className="inline-block bg-gray-200 rounded-full  text-sm font-semibold text-gray-700 mr-2">
+            <span className="bg-gray-200 rounded-full  text-sm font-semibold text-black mr-2">
               <p>170 calories</p>
             </span>
           </div>
