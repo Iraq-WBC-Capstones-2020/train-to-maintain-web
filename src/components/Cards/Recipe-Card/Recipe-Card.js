@@ -24,38 +24,48 @@ export default function RecipeCard({
         >
           See Recipe
         </button>
-
-        <div className="my-4 flex flex-wrap justify-around items-center">
-          <div className=" flex flex-col justify-center items-center w-1/3">
-            <img src={caloriesIcon} className="w-1/4 py-2" />
-            <span className="bg-gray-200 rounded-full text-sm text-black text-center">
-              {calories}
+        <div className="my-4 flex justify-around items-center">
+          <div className=" flex flex-col justify-around items-center">
+            <img
+              src={require('./img/calories-icon.png')}
+              className="xl:w-1/4 py-2"
+            />
+            <span className="inline-block bg-gray-200 rounded-full text-sm font-semibold text-gray-700">
+              <p>170 calories</p>
             </span>
           </div>
 
-          <div className="flex flex-col justify-center items-center w-1/3">
-            <img
-              src={categoryIcon}
-              alt="Meal category"
-              className="w-1/4 py-2"
-            ></img>
-            <span className=" bg-gray-200 rounded-full  text-sm text-black ">
-              {category}
-            </span>
-          </div>
+          <div className="my-4 flex flex-wrap justify-around items-center">
+            <div className=" flex flex-col justify-center items-center w-1/3">
+              <img src={caloriesIcon} className="w-1/4 py-2" />
+              <span className="bg-gray-200 rounded-full text-sm text-black text-center">
+                {calories}
+              </span>
+            </div>
 
-          <div className=" flex flex-col justify-center items-center w-1/3">
-            <img
-              src={durationIcon}
-              alt="Meal Preparation duration"
-              className="w-1/4 py-2"
-            ></img>
-            <span className="bg-gray-200 rounded-full  text-sm text-black ">
-              {duration}
-            </span>
+            <div className="flex flex-col justify-center items-center w-1/3">
+              <img
+                src={categoryIcon}
+                alt="Meal category"
+                className="w-1/4 py-2"
+              ></img>
+              <span className=" bg-gray-200 rounded-full  text-sm text-black ">
+                {category}
+              </span>
+            </div>
+
+            <div className=" flex flex-col justify-center items-center w-1/3">
+              <img
+                src={durationIcon}
+                alt="Meal Preparation duration"
+                className="w-1/4 py-2"
+              ></img>
+              <span className="bg-gray-200 rounded-full  text-sm text-black ">
+                {duration}
+              </span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }
