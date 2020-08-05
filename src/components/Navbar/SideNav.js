@@ -5,17 +5,10 @@ import './SideNav.css';
 import { Link } from 'react-router-dom';
 import { Swipeable } from 'react-swipeable';
 import PropTypes from 'prop-types';
-const SideNav = ({
-  navbarOpen,
-  handleToggleMenuClick,
-  handleToggleMenuNavClick,
-}) => {
-  let sideNavClasses = 'SideNav';
-  if (navbarOpen) {
-    sideNavClasses = 'SideNav open';
-  }
+const SideNav = ({ navbarOpen, handleToggleMenuClick, handleCloseNavbar }) => {
+  const sideNavClasses = navbarOpen ? 'side-nav open' : 'side-nav';
   return (
-    <Swipeable onSwiped={handleToggleMenuNavClick}>
+    <Swipeable onSwiped={handleCloseNavbar}>
       <nav
         className={
           `bg-darkgray h-screen w-3/4 md:w-2/4  fixed top-0 right-0 z-10 text-secondary lg:hidden flex flex-col justify-evenly ` +
@@ -30,18 +23,14 @@ const SideNav = ({
         </button>
         <ul className="h-64 flex flex-col justify-evenly items-center">
           <li>
-            <Link
-              onClick={handleToggleMenuNavClick}
-              to="/home"
-              className="font-bold"
-            >
+            <Link onClick={handleCloseNavbar} to="/home" className="font-bold">
               HOME
             </Link>
           </li>
 
           <li>
             <Link
-              onClick={handleToggleMenuNavClick}
+              onClick={handleCloseNavbar}
               to="/workouts"
               className="font-bold"
             >
@@ -50,21 +39,13 @@ const SideNav = ({
           </li>
 
           <li>
-            <Link
-              onClick={handleToggleMenuNavClick}
-              to="/meals"
-              className="font-bold"
-            >
+            <Link onClick={handleCloseNavbar} to="/meals" className="font-bold">
               MEALS
             </Link>
           </li>
 
           <li>
-            <Link
-              onClick={handleToggleMenuNavClick}
-              to="/about"
-              className="font-bold"
-            >
+            <Link onClick={handleCloseNavbar} to="/about" className="font-bold">
               ABOUT
             </Link>
           </li>
@@ -76,6 +57,6 @@ const SideNav = ({
 SideNav.propTypes = {
   navbarOpen: PropTypes.bool.isRequired,
   handleToggleMenuClick: PropTypes.func.isRequired,
-  handleToggleMenuNavClick: PropTypes.func.isRequired,
+  handleCloseNavbar: PropTypes.func.isRequired,
 };
 export default SideNav;

@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleToggleMenuClick = () => {
     setNavbarOpen((prevState) => !prevState);
   };
-  const handleToggleMenuNavClick = () => {
+  const handleCloseNavbar = () => {
     setNavbarOpen(false);
   };
   return (
@@ -21,7 +21,7 @@ const Navbar = () => {
       <SideNav
         handleToggleMenuClick={handleToggleMenuClick}
         navbarOpen={navbarOpen}
-        handleToggleMenuNavClick={handleToggleMenuNavClick}
+        handleCloseNavbar={handleCloseNavbar}
       />
     </div>
   );
