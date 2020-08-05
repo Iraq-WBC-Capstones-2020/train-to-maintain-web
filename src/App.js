@@ -25,7 +25,7 @@ const DefaultRoutes = () => {
         <Route path="/workouts" component={Workouts} />
         <Route path="/about" component={About} />
         <Route path="/blogs" component={Blogs} />
-        <Redirect to="notfound" />
+        <Redirect to="/notfound" />
       </Switch>
       <Footer />
     </>
@@ -35,13 +35,15 @@ const DefaultRoutes = () => {
 function App() {
   return (
     <>
-      <Router>
-        <Switch>
-          <Route component={NotFound} path="/notfound" />
-          <Route exact path="/" component={LandingPage} />
-          <Route component={DefaultRoutes} />
-        </Switch>
-      </Router>
+      <div className="">
+        <Router>
+          <Switch>
+            <Route component={NotFound} path="/notfound" />
+            <Route exact path="/" component={LandingPage} />
+            <Route component={DefaultRoutes} />
+          </Switch>
+        </Router>
+      </div>
     </>
   );
 }
