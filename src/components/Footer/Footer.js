@@ -1,19 +1,23 @@
 import React from 'react';
 import workoutImage from './assets/workoutImage.jpg';
+
+// style={{
+//   backgroundImage: `url(${workoutImage})`,
+//   backgroundSize: 'cover',
+//   backgroundPosition: 'center',
+// }}
 const Footer = () => {
   return (
-    <div
-      className=" sm:h-auto lg:h-64 flex lg:flex-row xl:flex-row flex-col md:flex-col justify-between items-center font-poppins text-secondary"
-      style={{
-        backgroundImage: `url(${workoutImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
-    >
-      <h1 className="text-4xl p-5 select-none">
-        Train to <span className="border-b-4 border-primary">Maintain</span>
+    <div className=" sm:h-auto lg:h-64 flex lg:flex-row xl:flex-row flex-col md:flex-row justify-between items-center font-poppins text-secondary">
+      <img
+        src={workoutImage}
+        className="object-cover bg-center h-auto md:h-64 sm:h-64 w-full absolute"
+      />
+      <h1 className="text-4xl p-5 select-none z-0 relative">
+        Train to{' '}
+        <span className="border-b-4 border-primary z-40">Maintain</span>
       </h1>
-      <ul className="text-2xl sm:p-2 p-2">
+      <ul className="text-2xl sm:p-2 p-2 relative">
         <li>
           <a href="#">Home</a>
         </li>
@@ -28,7 +32,7 @@ const Footer = () => {
         </li>
         <li>About</li>
       </ul>
-      <div className="p-5 w-56">
+      <div className="p-5 w-56 relative">
         <button className="bg-primary w-20 h-10 text-secondary mr-2">
           Sign Up
         </button>
