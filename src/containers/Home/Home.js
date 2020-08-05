@@ -1,7 +1,9 @@
 import React from 'react';
 import './Home.css';
 import Header from './header/Header';
+import QuoteSection from './quoteSection/QuoteSection';
 import bgvideo from './assets/bgvideo.mp4';
+import overlay from './assets/overlay.png';
 const Home = () => {
   return (
     <>
@@ -13,9 +15,14 @@ const Home = () => {
         className="w-screen  absolute left-0 top-0 object-cover "
       >
         <source src={bgvideo} type="video/mp4" />
-      </video>
+      </video>{' '}
+      <img
+        className=" overlay w-screen  absolute left-0 top-0 "
+        src={overlay}
+        alt="overlay"
+      />
       <Header />
-      <div className="mt-4">that is another div</div>
+      <QuoteSection />
     </>
   );
 };
