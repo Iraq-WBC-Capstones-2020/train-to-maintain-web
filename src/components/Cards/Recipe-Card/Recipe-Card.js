@@ -32,7 +32,7 @@ export default function RecipeCard({
               className="w-1/4 py-2"
             />
             <span className="bg-gray-200 rounded-full text-sm font-semibold text-black text-center">
-              <p>170 calories</p>
+              {calories}
             </span>
           </div>
 
