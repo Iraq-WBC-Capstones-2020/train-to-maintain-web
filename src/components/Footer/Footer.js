@@ -5,7 +5,7 @@ const Footer = () => {
     <div
       className=" sm:h-auto lg:h-64 flex lg:flex-row xl:flex-row flex-col md:flex-col justify-between items-center font-poppins text-secondary"
       style={{
-        backgroundImage: url(${ workoutImage }),
+        backgroundImage: `url(${workoutImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
