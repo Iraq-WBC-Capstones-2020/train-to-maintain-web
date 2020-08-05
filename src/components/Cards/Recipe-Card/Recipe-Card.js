@@ -1,17 +1,18 @@
 import React from 'react';
 
-export default function RecipeCard(props) {
+export default function RecipeCard({
+  image,
+  title,
+  calories,
+  category,
+  duration,
+}) {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        className="w-full"
-        src={require('./img/breakfast3.png')}
-        alt="breakfast"
-      />
-      <div></div>
+      <img className="w-full" src={image} alt="breakfast" />
       <div className="px-6 py-4 flex flex-col justify-around items-center ">
         <h1 className="text-black-700 text-base font-bold text-xl mb-2 text-center">
-          Kiwi, Greek yogurt <br />& blueberries
+          {title}
         </h1>
         <button
           className="bg-primary text-white active:bg-pink-600 font-poppins  text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mx-4"
@@ -28,7 +29,7 @@ export default function RecipeCard(props) {
               className="w-1/4 py-2"
             />
             <span className="bg-gray-200 rounded-full text-sm font-semibold text-black text-center">
-              <p>170 calories</p>
+              {calories}
             </span>
           </div>
 
@@ -39,7 +40,7 @@ export default function RecipeCard(props) {
               className="w-1/4 py-2"
             ></img>
             <span className=" bg-gray-200 rounded-full  text-sm font-semibold text-black mr-2">
-              <p>170 calories</p>
+              {category}
             </span>
           </div>
 
@@ -50,7 +51,7 @@ export default function RecipeCard(props) {
               className="w-1/4 py-2"
             ></img>
             <span className="bg-gray-200 rounded-full  text-sm font-semibold text-black mr-2">
-              <p>170 calories</p>
+              {duration}
             </span>
           </div>
         </div>
