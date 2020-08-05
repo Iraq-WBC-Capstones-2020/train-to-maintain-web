@@ -13,7 +13,7 @@ const LandingPageCard = ({ image, title }) => {
         src={image}
         alt="Train to Maintain landing"
       />
-      <div className="font-bold text-2xl text-purple-600 text-center p-5">
+      <div className="font-bold font-poppins text-2xl text-primary text-center p-5">
         {title}
       </div>
     </motion.div>

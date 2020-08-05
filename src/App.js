@@ -1,6 +1,7 @@
 import React from 'react';
 import LandingPageCard from './components/Card/LandingPageCard';
 import BlogCard from './components/Card/BlogCard/BlogCard';
+import Footer from './components/footer/Footer';
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
         }
         title={'Meals'}
       />
+      <Footer />
     </div>
   );
 }
