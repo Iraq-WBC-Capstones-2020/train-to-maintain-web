@@ -4,9 +4,10 @@ import Header from './header/Header';
 import QuoteSection from './quoteSection/QuoteSection';
 import bgvideo from './assets/bgvideo.mp4';
 import overlay from './assets/overlay.png';
-import BlogCard from '../../components/Card/BlogCard/BlogCard';
+
 import Newsletter from './newsletter/Newsletter';
 import BlogPosts from './blogposts/BlogPosts';
+import SocialMedia from './soical media/SocialMedia';
 const Home = () => {
   return (
     <>
@@ -27,6 +28,7 @@ const Home = () => {
       <Header /> <BlogPosts />
       <QuoteSection />
       <Newsletter />
+      <SocialMedia />
     </>
   );
 };

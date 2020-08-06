@@ -16,6 +16,9 @@
   outline: none;
   width: 400px;
 }
+.newsletter p {
+  color: black !important;
+}
 @media only screen and (max-width: 600px) {
   .newsletter input {
     width: 200px;
