@@ -1,0 +1,18 @@
+.blog-posts {
+  /* height: 60vh; */
+  overflow-y: scroll;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+.disable-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Chrome/Safari/Webkit */
+}
+
+@media only screen and (max-width: 600px) {
+  .blog-posts {
+    /* height: 60vh; */
+    overflow-x: scroll;
+    overflow: scroll;
+  }
+}
