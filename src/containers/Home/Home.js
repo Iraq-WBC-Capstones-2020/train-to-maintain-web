@@ -4,7 +4,7 @@ import Header from './header/Header';
 import QuoteSection from './quoteSection/QuoteSection';
 import bgvideo from './assets/bggif.mp4';
 import overlay from './assets/overlay.png';
-
+import BlogCard from '../../components/Card/BlogCard/BlogCard';
 import Newsletter from './newsletter/Newsletter';
 import BlogPosts from './blogposts/BlogPosts';
 import SocialMedia from './soical media/SocialMedia';
