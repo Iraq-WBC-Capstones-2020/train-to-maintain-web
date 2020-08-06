@@ -12,13 +12,17 @@ export default function RecipeCard({
 }) {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <img className="w-auto h-auto" src={image} alt="breakfast" />
+      <img
+        className="w-auto h-65"
+        src={require('./img/breakfast3.png')}
+        alt="breakfast"
+      />
       <div className="px-6 py-4 flex flex-col justify-around items-center ">
         <h1 className="text-black-700 text-base font-bold text-xl mb-2 text-center">
           {title}
         </h1>
         <button
-          className="bg-primary text-white active:bg-pink-600 font-poppins  text-sm px-6 py-3 shadow hover:shadow-lg outline-none focus:outline-none mx-4"
+          className="bg-primary text-white active:bg-pink-600 text-sm px-6 py-3 shadow hover:shadow-lg outline-none focus:outline-none mx-4"
           type="button"
           style={{ transition: 'all .15s ease' }}
         >
@@ -28,7 +32,7 @@ export default function RecipeCard({
         <div className="my-4 flex flex-wrap justify-around items-center">
           <div className=" flex flex-col justify-center items-center w-1/3">
             <img src={caloriesIcon} className="w-1/4 py-2" />
-            <span className="bg-gray-200 rounded-full text-sm font-poppins text-black text-center">
+            <span className="bg-gray-200 rounded-full text-sm text-black text-center">
               {calories}
             </span>
           </div>
@@ -39,7 +43,7 @@ export default function RecipeCard({
               alt="Meal category"
               className="w-1/4 py-2"
             ></img>
-            <span className=" bg-gray-200 rounded-full  text-sm font-poppins text-black ">
+            <span className=" bg-gray-200 rounded-full  text-sm text-black ">
               {category}
             </span>
           </div>
@@ -50,7 +54,7 @@ export default function RecipeCard({
               alt="Meal Preparation duration"
               className="w-1/4 py-2"
             ></img>
-            <span className="bg-gray-200 rounded-full  text-sm font-poppins text-black ">
+            <span className="bg-gray-200 rounded-full  text-sm text-black ">
               {duration}
             </span>
           </div>
