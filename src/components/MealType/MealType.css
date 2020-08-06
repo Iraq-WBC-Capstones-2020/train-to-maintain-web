@@ -28,8 +28,6 @@
     padding: 30px 40px;
   }
 }
-@media only screen and (max-width: 840px) {
-}
 @media only screen and (max-width: 576px) {
   .box {
     padding: 14px 24px;
