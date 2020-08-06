@@ -6,6 +6,8 @@ module.exports = {
         lg: '20rem',
         xl: '35rem',
         xxl: '40rem',
+        xxxl: '50rem',
+        xxxxl: '60rem',
       },
       colors: {
         primary: '#4527A0',
