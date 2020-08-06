@@ -2,24 +2,24 @@ import React from 'react';
 import clockicon from './icons/clockicon.svg';
 import trainingicon from './icons/trainingicon.svg';
 
-function WorkoutCard({ image, title, duration, type, id }) {
+function WorkoutCard({ workout }) {
   return (
-    <div class="max-w-sm rounded overflow-hidden shadow-lg font-poppins ">
-      <img class="w-full" src={image} alt={title} id={id} />
-      <div class="px-6 py-4">
-        <div class="flex justify-center items-center font-bold text-xl  text-center m-10 text-darkgray">
-          {title}
+    <div className="max-h-lg max-w-sm sm:w-1/2 lg:w-1/4 overflow-hidden shadow-lg">
+      <img className="w-full" src={workout.image} alt={workout.title} />
+      <div className="p-3">
+        <div className="flex justify-center items-center font-bold text-xl text-center text-darkgray">
+          {workout.title}
         </div>
       </div>
-      <div class="flex justify-around m-5">
-        <div>
-          <img src={trainingicon} alt="trainingicon" class="h-10 w-10" />
-          <span class="-m-5 text-darkgray">{type}</span>
+      <div className="flex justify-around pb-3 items-center">
+        <div className="flex items-center flex-col">
+          <img src={trainingicon} alt="trainingicon" className="h-6 w-6" />
+          <span className="text-darkgray pt-1">{workout.type}</span>
         </div>
-        <div class="absolute h-10 border-l-2 border-darkgray"></div>
-        <div class="flex-col">
-          <img class="h-10 w-10" src={clockicon} alt="clockicon" />
-          <span class="-m-2 text-darkgray">{duration}</span>
+        <div className="absolute h-10 border-l-2 border-darkgray"></div>
+        <div className="flex items-center flex-col">
+          <img src={clockicon} alt="clockicon" className="h-6 w-6" />
+          <span className="text-darkgray pt-1">{workout.duration}</span>
         </div>
       </div>
     </div>
