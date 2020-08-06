@@ -1,7 +1,7 @@
 import React from 'react';
 import BlogCard from '../../../components/Card/BlogCard/BlogCard';
 import './BlogPosts.css';
-import Zoom from 'react-reveal/Zoom';
+
 const BlogPosts = () => {
   return (
     <section className="flex flex-col items-center bg-secondary">
