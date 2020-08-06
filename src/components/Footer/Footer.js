@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className=" sm:h-auto lg:h-64 flex lg:flex-row xl:flex-row flex-col md:flex-row justify-between items-center font-poppins text-secondary">
+    <div className=" sm:h-auto lg:h-64 flex lg:flex-row xl:flex-row flex-col md:flex-row justify-between items-center text-secondary">
       <img
         src={workoutImage}
         className="object-cover bg-center h-auto md:h-64 sm:h-64 w-full absolute"
@@ -35,7 +35,7 @@ const Footer = () => {
         </button>
         <label htmlFor="language"></label>
         <select
-          className=" bg-primary text-secondary w-20 h-10 "
+          className=" bg-primary text-secondary w-20 h-10"
           name="language"
           id="language"
         >

@@ -6,10 +6,10 @@ const LandingPageCard = ({ image, title }) => {
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}
-      className=" max-h-lg max-w-sm sm:w-1/2 lg:w-1/4 overflow-hidden shadow-2xl  "
+      className="max-h-lg max-w-sm sm:w-1/2 lg:w-1/4 overflow-hidden shadow-2xl"
     >
       <img
-        className="h-64 w-11/12 mx-auto object-cover"
+        className="h-64 w-full mx-auto object-cover"
         src={image}
         alt="Train to Maintain landing"
       />
