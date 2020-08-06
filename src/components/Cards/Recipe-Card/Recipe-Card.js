@@ -12,7 +12,11 @@ export default function RecipeCard({
 }) {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <img className="w-full" src={image} alt="breakfast" />
+      <img
+        className="w-auto h-auto"
+        src={require('./img/breakfast3.png')}
+        alt="breakfast"
+      />
       <div className="px-6 py-4 flex flex-col justify-around items-center ">
         <h1 className="text-black-700 text-base font-bold text-xl mb-2 text-center">
           {title}
