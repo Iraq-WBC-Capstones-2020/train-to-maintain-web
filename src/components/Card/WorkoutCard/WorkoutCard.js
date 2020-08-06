@@ -1,5 +1,6 @@
 import React from 'react';
 import clockicon from './icons/clockicon.svg';
+import propTypes from 'prop-types';
 import trainingicon from './icons/trainingicon.svg';
 
 function WorkoutCard({ workout }) {
@@ -25,5 +26,9 @@ function WorkoutCard({ workout }) {
     </div>
   );
 }
+
+WorkoutCard.propTypes = {
+  workout: propTypes.object,
+};
 
 export default WorkoutCard;
