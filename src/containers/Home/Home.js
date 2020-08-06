@@ -4,6 +4,8 @@ import Header from './header/Header';
 import QuoteSection from './quoteSection/QuoteSection';
 import bgvideo from './assets/bgvideo.mp4';
 import overlay from './assets/overlay.png';
+
+import Newsletter from './newsletter/Newsletter';
 const Home = () => {
   return (
     <>
@@ -19,10 +21,11 @@ const Home = () => {
       <img
         className=" overlay w-screen  absolute left-0 top-0 "
         src={overlay}
-        alt="overlay"
+        alt="ovey"
       />
       <Header />
       <QuoteSection />
+      <Newsletter />
     </>
   );
 };
