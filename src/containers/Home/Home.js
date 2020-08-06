@@ -23,7 +23,7 @@ const Home = () => {
       <img
         className=" overlay w-screen  absolute left-0 top-0 "
         src={overlay}
-        alt="overlay"
+        alt="ovey"
       />
       <Header /> <BlogPosts />
       <QuoteSection />
