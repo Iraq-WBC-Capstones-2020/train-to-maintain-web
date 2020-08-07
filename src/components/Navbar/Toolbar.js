@@ -51,7 +51,7 @@ const Toolbar = ({ navbarOpen, handleToggleMenuClick }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className={navLinksStyle}>Workouts</Link>
+                <Link to="/workouts" className={navLinksStyle}>Workouts</Link>
               </li>
               <li className="nav-item">
                 <Link to="/meals" className={navLinksStyle}>
