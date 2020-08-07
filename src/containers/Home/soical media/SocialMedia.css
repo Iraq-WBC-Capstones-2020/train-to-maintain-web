@@ -3,8 +3,7 @@
   background-position: center;
   background-size: cover;
 }
-
-.disable-scrollbar::-webkit-scrollbar {
+*/ .disable-scrollbar::-webkit-scrollbar {
   width: 0px;
   background: transparent;
 }
