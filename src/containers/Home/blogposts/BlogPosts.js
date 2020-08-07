@@ -10,7 +10,7 @@ const BlogPosts = () => {
         Nutrition, Health, and working out blogs
       </h1>
 
-      <div className=" flex flex-col  items-center blog-posts  disable-scrollbar  w-screen md:h-xl h-xxl px-3">
+      <div className=" flex flex-col  items-center overflow-y-scroll  disable-scrollbar  w-screen md:h-xl h-xxl px-3">
         <BlogCard
           title="10 tips I wish I knew before I started to workout."
           overview="If you have been planning to start working out for the last couple of months but you always procrastinate about how, where, and when to start, here are 10 tips that really helped throughout my journey and I wish I knew from the beginning."
