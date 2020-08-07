@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import './SocialMedia.css';
 import { TwitterTweetEmbed } from 'react-twitter-embed';
 import { motion } from 'framer-motion';
