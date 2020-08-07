@@ -1,5 +1,4 @@
 import React from 'react';
-// import profilePic from './profile.jpg';
 import propTypes from 'prop-types';
 import { motion } from 'framer-motion';
 const TeamCard = ({ id, image, name, role }) => {
