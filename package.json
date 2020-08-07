@@ -17,14 +17,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-<<<<<<< HEAD
-    "tailwindcss": "^1.6.1"
-||||||| c01adfc
-    "tailwindcss": "^1.5.2"
-=======
     "react-swipeable": "^5.5.1",
     "tailwindcss": "^1.5.2"
->>>>>>> e9df546dc7e24355b7c3135537d6ac79371aa22c
   },
   "scripts": {
     "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.output.css",
