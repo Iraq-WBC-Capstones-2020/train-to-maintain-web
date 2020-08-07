@@ -1,8 +1,8 @@
-.social-media {
+/* .social-media {
   background-image: url('./social-media-bg.png');
   background-position: center;
   background-size: cover;
-}
+} */
 
 .disable-scrollbar::-webkit-scrollbar {
   width: 0px;
