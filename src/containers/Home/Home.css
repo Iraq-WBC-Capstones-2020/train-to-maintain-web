@@ -7,3 +7,8 @@
   z-index: -1;
   height: 80%;
 }
+.go-up {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
