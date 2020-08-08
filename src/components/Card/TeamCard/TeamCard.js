@@ -7,19 +7,19 @@ const TeamCard = ({ id, image, name, role }) => {
       <motion.div
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.95 }}
-        className="w-56 bg-red-200 h-64 flex flex-col justify-between shadow-xl m-10"
+        className="w-56 h-64 flex flex-col justify-between shadow-xl m-6"
         id={id}
       >
-        <div className="bg-blue-200 h-48 profile-pic">
+        <div className="h-48">
           <img
             src={image}
-            alt="profile picture"
+            alt="profile"
             className="h-full w-full object-cover"
           />
         </div>
         <div className="h-full flex flex-col  items-center justify-center  bg-secondary text-darkgray">
           <h1 className="font-bold">{name}</h1>
-          <p className="text-xs text-center">{role} </p>
+          <p className="text-xs text-center text-gray-600">{role} </p>
         </div>
       </motion.div>
     </>
