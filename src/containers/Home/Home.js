@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import Header from './header/Header';
 import QuoteSection from './quoteSection/QuoteSection';
-import bgvideo from './assets/bgvideo.mp4';
+import bgvideo from './assets/newbgvideo.mp4';
 import overlay from './assets/overlay.png';
 
 import Newsletter from './newsletter/Newsletter';
