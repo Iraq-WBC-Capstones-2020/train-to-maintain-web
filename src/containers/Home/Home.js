@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import Header from './header/Header';
 import QuoteSection from './quoteSection/QuoteSection';
@@ -37,7 +37,7 @@ const Home = () => {
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => scroll({ y: 0, smooth: true })}
-              className="go-up bg-darkgray  text-xl text-secondary rounded-full p-3 z-10  shadow-xl hover:bg-primary focus:outline-none"
+              className="go-up bg-darkgray  text-sm text-secondary rounded-full p-3 z-10  shadow-xl hover:bg-primary focus:outline-none"
             >
               {' '}
               Back to top ⬆
