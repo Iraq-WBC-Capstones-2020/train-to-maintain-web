@@ -1,10 +1,10 @@
-/* .social-media {
-  background-image: url('./social-media-bg.png');
+.social-media {
+  background-image: url('./social-media-bg.jpg');
   background-position: center;
   background-size: cover;
-} */
+}
 
 .disable-scrollbar::-webkit-scrollbar {
   width: 0px;
-  background: transparent; /* Chrome/Safari/Webkit */
+  background: transparent;
 }
