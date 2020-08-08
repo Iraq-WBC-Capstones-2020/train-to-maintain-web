@@ -1,7 +1,6 @@
 import React from 'react';
 import landingWorkout from '../LandingPage/assets/landingWorkout.mp4';
 import LandingPageCard from '../../components/Card/LandingPageCard/LandingPageCard';
-import { Link } from 'react-router-dom';
 import MealsPic from './assets/Meals.jpg';
 import WorkoutPic from './assets/Workout.jpg';
 import BundlesPic from './assets/Bundles.jpg';
