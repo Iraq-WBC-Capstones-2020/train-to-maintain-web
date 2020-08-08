@@ -1,11 +1,13 @@
 import React from 'react';
 import landingWorkout from '../LandingPage/assets/landingWorkout.mp4';
 import LandingPageCard from '../../components/Card/LandingPageCard/LandingPageCard';
+import { Link } from 'react-router-dom';
 import MealsPic from './assets/Meals.jpg';
 import WorkoutPic from './assets/Workout.jpg';
 import BundlesPic from './assets/Bundles.jpg';
 import BlackRectangle from './assets/Rectangle.png';
 import './landing.css';
+
 const LandingPage = () => {
   return (
     <>
@@ -29,10 +31,16 @@ const LandingPage = () => {
         <h2 className=" select-none text-secondary text-center font-bold text-2xl relative">
           YOUR PERSONAL TRAINING ASSISTANT
         </h2>
-        <div className=" flex flex-col items-center md:flex-row md:h-xxxl lg:h-xl justify-evenly p-2 ">
-          <LandingPageCard image={MealsPic} title={'Meals'} />
-          <LandingPageCard image={WorkoutPic} title={'Workout'} />
-          <LandingPageCard image={BundlesPic} title={'Bundles'} />
+        <div className=" flex flex-col items-center md:flex-row md:h-xxxl lg:h-la  justify-evenly p-2 ">
+          <Link to="./meals">
+            <LandingPageCard image={MealsPic} title={'Meals'} />
+          </Link>
+          <Link to="./workouts">
+            <LandingPageCard image={WorkoutPic} title={'Workout'} />
+          </Link>
+          <Link to="./bundles">
+            <LandingPageCard image={BundlesPic} title={'Bundles'} />
+          </Link>
         </div>
       </div>
     </>
@@ -40,3 +48,4 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+// md:flex-col md:h-xxxl lg:h-xl  justify-evenly p-2
