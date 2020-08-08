@@ -17,7 +17,7 @@ const QuoteSection = () => {
   return (
     <section className="flex justify-center items-center lg:py-32 md:py-24 py-16 quote-section ">
       <div className="  w-9/12 flex justify-center ">
-        <h1 className="font-bold text-secondary lg:text-4xl text-xl">
+        <h1 className="font-bold text-secondary text-center lg:text-4xl text-xl">
           {quote}
         </h1>
       </div>
