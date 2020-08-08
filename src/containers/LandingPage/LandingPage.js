@@ -1,39 +1,42 @@
 import React from 'react';
 import landingWorkout from '../LandingPage/assets/landingWorkout.mp4';
 import LandingPageCard from '../../components/Card/LandingPageCard/LandingPageCard';
+import { Link } from 'react-router-dom';
+import MealsPic from './assets/Meals.jpg';
+import WorkoutPic from './assets/Workout.jpg';
+import BundlesPic from './assets/Bundles.jpg';
+import BlackRectangle from './assets/Rectangle.png';
+import './landing.css';
 const LandingPage = () => {
   return (
-    <div>
+    <>
       <video
         autoPlay="autoplay"
         loop="loop"
         muted
-        className="w-full h-screen object-cover absolute"
+        className="w-full h-full top-0 left-0 object-cover fixed  black-effect"
       >
         <source src={landingWorkout} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="flex flex-row justify-between p-2 ">
-        <LandingPageCard
-          image={
-            'https://pixnio.com/free-images/2019/01/21/2019-01-21-13-19-05-460x307.jpg'
-          }
-          title={'Meals'}
-        />
-        <LandingPageCard
-          image={
-            'https://pixnio.com/free-images/2019/01/21/2019-01-21-13-19-05-460x307.jpg'
-          }
-          title={'Meals'}
-        />
-        <LandingPageCard
-          image={
-            'https://pixnio.com/free-images/2019/01/21/2019-01-21-13-19-05-460x307.jpg'
-          }
-          title={'Meals'}
-        />
+      <img
+        src={BlackRectangle}
+        className="fixed top-0 left-0 h-screen w-full"
+      />
+      <div>
+        <h1 className=" select-none text-secondary text-center font-bold text-6xl relative">
+          Train To <span className="border-b-4 border-primary">Maintain</span>
+        </h1>
+        <h2 className=" select-none text-secondary text-center font-bold text-2xl relative">
+          YOUR PERSONAL TRAINING ASSISTANT
+        </h2>
+        <div className=" flex flex-col items-center md:flex-row md:h-xxxl lg:h-xl justify-evenly p-2 ">
+          <LandingPageCard image={MealsPic} title={'Meals'} />
+          <LandingPageCard image={WorkoutPic} title={'Workout'} />
+          <LandingPageCard image={BundlesPic} title={'Bundles'} />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
