@@ -18,8 +18,7 @@ const LandingPage = () => {
         <source src={landingWorkout} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="absolute w-screen h-screen w-full bg-black opacity-50">
-      </div>
+      <div className="absolute w-screen h-screen w-full bg-black opacity-50"></div>
       <div>
         <h1 className="text-secondary text-center font-bold text-6xl relative">
           Train To <span className="border-b-4 border-primary">Maintain</span>
