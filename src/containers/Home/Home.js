@@ -25,11 +25,12 @@ const Home = () => {
       >
         <source src={bgvideo} type="video/mp4" />
       </video>{' '}
-      <img
+      {/* <img
         className=" overlay w-screen  absolute left-0 top-0 "
         src={overlay}
         alt="overlay"
-      />
+      /> */}
+      <div className="overlay bg-black absolute left-0 top-0 w-screen opacity-50"></div>
       {scrollAmount !== 0 ? (
         <ScrollTo>
           {({ scroll }) => (
