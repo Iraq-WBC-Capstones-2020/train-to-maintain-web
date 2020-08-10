@@ -3,7 +3,6 @@ import './Home.css';
 import Header from './header/Header';
 import QuoteSection from './quoteSection/QuoteSection';
 import bgvideo from './assets/bggif.mp4';
-import overlay from './assets/overlay.png';
 import { motion } from 'framer-motion';
 import Newsletter from './newsletter/Newsletter';
 import BlogPosts from './blogposts/BlogPosts';
@@ -25,11 +24,7 @@ const Home = () => {
       >
         <source src={bgvideo} type="video/mp4" />
       </video>{' '}
-      <img
-        className=" overlay w-screen  absolute left-0 top-0 "
-        src={overlay}
-        alt="overlay"
-      />
+      <div className="overlay bg-black absolute left-0 top-0 w-screen opacity-50"></div>
       {scrollAmount !== 0 ? (
         <ScrollTo>
           {({ scroll }) => (
