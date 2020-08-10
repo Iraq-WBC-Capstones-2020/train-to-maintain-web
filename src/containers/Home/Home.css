@@ -1,11 +1,11 @@
 #bg-video {
   z-index: -2;
-  height: 80%;
+  height: 82%;
 }
 
 .overlay {
   z-index: -1;
-  height: 80%;
+  height: 82%;
 }
 .go-up {
   position: fixed;
