@@ -21,6 +21,7 @@ const Toolbar = ({ navbarOpen, handleToggleMenuClick }) => {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
+              href="#"
               className={classNames(
                 'lg:text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-secondary',
                 { 'text-darkgray': !isDark }
