@@ -2,10 +2,14 @@ import React from 'react';
 import clockicon from './icons/clockicon.svg';
 import propTypes from 'prop-types';
 import trainingicon from './icons/trainingicon.svg';
+import { motion } from 'framer-motion';
 
 function WorkoutCard({ workout }, { key }) {
   return (
-    <div className="max-h-lg max-w-sm sm:w-1/2 lg:w-1/3 overflow-hidden shadow-lg m-4">
+    <motion.div
+      className="max-h-lg max-w-sm sm:w-1/2 lg:w-1/3 overflow-hidden shadow-lg m-4"
+      whileHover={{ scale: 1.02 }}
+    >
       <img
         className="w-full"
         src={workout.image}
@@ -30,7 +34,7 @@ function WorkoutCard({ workout }, { key }) {
           <span className="text-darkgray pt-1">{workout.duration}</span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -77,7 +77,10 @@ const workout = [
 ];
 const Workouts = () => {
   return (
-    <div className=" flex flex-row flex-wrap justify-evenly  ">
+    <div
+      className=" flex flex-row flex-wrap justify-evenly  "
+      whileHover={{ scale: 1.02 }}
+    >
       {workout.map((workout) => {
         return <WorkoutCard workout={workout} key={workout.id} />;
       })}
