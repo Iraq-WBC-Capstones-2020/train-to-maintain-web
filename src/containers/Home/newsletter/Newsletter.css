@@ -1,0 +1,30 @@
+.newsletter button {
+  padding: 0.6rem;
+  outline: none;
+  border-radius: 0px 20px 20px 0px;
+  border: 2px solid #4527a0;
+  background-color: #4527a0;
+  color: white;
+}
+.newsletter success {
+  color: blue;
+}
+.newsletter input {
+  padding: 0.6rem;
+  border-radius: 20px 0px 0px 20px;
+  border: 2px solid #4527a0;
+  outline: none;
+  width: 400px;
+}
+.newsletter p {
+  color: #333 !important;
+}
+@media only screen and (max-width: 600px) {
+  .newsletter input {
+    width: 200px;
+    padding: 0.4rem;
+  }
+  .newsletter button {
+    padding: 0.4rem;
+  }
+}
