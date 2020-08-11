@@ -41,8 +41,8 @@ const Home = () => {
           )}
         </ScrollTo>
       ) : (
-          ''
-        )}
+        ''
+      )}
       <Header />
       <BlogPosts />
       <QuoteSection />
