@@ -82,7 +82,7 @@ const SingleWorkout = () => {
           return (
             <iframe
               key={index}
-              className="lg:w-6/12 md:w-10/12 md:h-screen-50 h-64 mb-3 "
+              className="lg:w-6/12 md:w-10/12 md:h-screen-50 h-64 mb-6 "
               src={video}
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
