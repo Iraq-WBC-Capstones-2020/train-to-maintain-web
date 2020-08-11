@@ -3,10 +3,16 @@ import clockicon from './icons/clockicon.svg';
 import propTypes from 'prop-types';
 import trainingicon from './icons/trainingicon.svg';
 
-function WorkoutCard({ workout }) {
+function WorkoutCard({ workout }, { key }) {
   return (
     <div className="max-h-lg max-w-sm sm:w-1/2 lg:w-1/3 overflow-hidden shadow-lg m-4">
-      <img className="w-full" src={workout.image} alt={workout.title} />
+      <img
+        className="w-full"
+        src={workout.image}
+        alt={workout.title}
+        key={key}
+        id={key}
+      />
       <div className="p-3">
         <div className="flex justify-center items-center font-bold text-xl text-center text-darkgray">
           {workout.title}
