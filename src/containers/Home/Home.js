@@ -24,12 +24,7 @@ const Home = () => {
         className="w-screen  absolute left-0 top-0 object-cover "
       >
         <source src={bgvideo} type="video/mp4" />
-      </video>{' '}
-      {/* <img
-        className=" overlay w-screen  absolute left-0 top-0 "
-        src={overlay}
-        alt="overlay"
-      /> */}
+      </video>
       <div className="overlay bg-black absolute left-0 top-0 w-screen opacity-50"></div>
       {scrollAmount !== 0 ? (
         <ScrollTo>
@@ -46,8 +41,8 @@ const Home = () => {
           )}
         </ScrollTo>
       ) : (
-        ''
-      )}
+          ''
+        )}
       <Header />
       <BlogPosts />
       <QuoteSection />
