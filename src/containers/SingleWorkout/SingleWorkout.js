@@ -48,15 +48,11 @@ const SingleWorkout = () => {
             <p className="text-darkgray">{workout.description}</p>
             <div className="flex mt-6 w-32   justify-between">
               <div className="flex flex-col items-center">
-                <img src={timeIcon} alt="time icon" className="h-8 w-8" />
+                <img src={timeIcon} alt="duration" className="h-8 w-8" />
                 <p className="text-xs mt-1 text-darkgray">{workout.duration}</p>
               </div>
               <div className="flex flex-col items-center">
-                <img
-                  src={dumbbellIcon}
-                  alt="dumbbell icon"
-                  className="h-8 w-8"
-                />
+                <img src={dumbbellIcon} alt="dumbbell" className="h-8 w-8" />
                 <p className="text-xs mt-1 text-darkgray capitalize">
                   {workout.level}
                 </p>
@@ -67,7 +63,7 @@ const SingleWorkout = () => {
             <img
               className="md:w-7/12 w-full h-full"
               src={workout.imgUrl}
-              alt="workout image"
+              alt="workout"
             ></img>
           </div>
         </div>
