@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 function WorkoutCard({ workout }, { key }) {
   return (
     <motion.div
-      className="max-h-lg max-w-sm sm:w-1/2 lg:w-1/3 overflow-hidden shadow-lg m-4"
+      className="max-h-lg max-w-sm sm:w-1/2 lg:w-5/6 md:w-5/6 overflow-hidden shadow-lg m-4"
       whileHover={{ scale: 1.02 }}
     >
       <img

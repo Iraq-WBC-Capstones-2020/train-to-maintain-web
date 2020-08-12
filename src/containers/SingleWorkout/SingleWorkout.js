@@ -12,6 +12,8 @@ const SingleWorkout = () => {
       'This is an effective chest workout that targets all of the chest pecs. (upper,middle, and lower chest)',
     duration: '60 mins',
     level: 'beginner',
+    imgUrl:
+      'https://i2.wp.com/behungrystayhumble.com/wp-content/uploads/2018/05/brutal-caucasian-handsome-fitness-men-on-diet-training-chest-pum-95191475.jpg?w=2123&ssl=1',
     exercises: [
       'Flat Barbell Bench Press, 3 sets of 10 ',
       'Incline Dumbbell Bench Press, 3 sets of 10',
@@ -62,20 +64,20 @@ const SingleWorkout = () => {
             </div>
           </div>
           <div className="md:w-5/12 w-full flex md:justify-center">
-            <img
-              className="md:w-7/12 w-full h-full"
-              src="https://i2.wp.com/behungrystayhumble.com/wp-content/uploads/2018/05/brutal-caucasian-handsome-fitness-men-on-diet-training-chest-pum-95191475.jpg?w=2123&ssl=1"
-            ></img>
+            <img className="md:w-7/12 w-full h-full" src={workout.imgUrl}></img>
           </div>
         </div>
       </div>
       <div className="md:mt-16 md:pl-16 px-8 pb-8">
         <h3 className="text-primary font-bold text-2xl mb-2">Exercises</h3>
-        <ol className="md:text-xl">
-          {workout.exercises.map((exe, index) => {
-            return <li key={index}>{exe}</li>;
-          })}
-        </ol>
+
+        {workout.exercises.map((exe, index) => {
+          return (
+            <li className="md:text-xl" key={index}>
+              {exe}
+            </li>
+          );
+        })}
       </div>
       <div className="flex flex-col  items-center my-8">
         {workout.videoUrls.map((video, index) => {

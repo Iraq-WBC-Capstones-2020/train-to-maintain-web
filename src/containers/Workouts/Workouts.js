@@ -1,5 +1,6 @@
 import React from 'react';
 import WorkoutCard from '../../components/Card/WorkoutCard/WorkoutCard';
+import { Link } from 'react-router-dom';
 const workout = [
   {
     title: 'CHEST WORKOUTS',
@@ -82,7 +83,13 @@ const Workouts = () => {
       whileHover={{ scale: 1.02 }}
     >
       {workout.map((workout) => {
-        return <WorkoutCard workout={workout} key={workout.id} />;
+        return (
+          <>
+            <Link to="/workouts/singleworkout">
+              <WorkoutCard workout={workout} key={workout.id} />
+            </Link>
+          </>
+        );
       })}
     </div>
   );
