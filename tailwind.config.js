@@ -20,7 +20,7 @@ module.exports = {
         poppins: ['Poppins'],
       },
       height: {
-        'screen-50': "50vh"
+        'screen-50': '50vh',
       },
     },
   },

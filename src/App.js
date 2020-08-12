@@ -14,6 +14,7 @@ import Blogs from './containers/Blogs/Blogs';
 import NotFound from './containers/NotFound/NotFound';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import MealPage from './containers/MealPage/MealPage';
 
 const DefaultRoutes = () => {
   return (
@@ -25,6 +26,7 @@ const DefaultRoutes = () => {
         <Route path="/workouts" component={Workouts} />
         <Route path="/about" component={About} />
         <Route path="/blogs" component={Blogs} />
+        <Route path="/Meal" component={MealPage} />
         <Redirect to="/notfound" />
       </Switch>
       <Footer />
