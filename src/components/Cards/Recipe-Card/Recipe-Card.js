@@ -15,7 +15,6 @@ export default function RecipeCard({
       <div style={{ width: '384px', height: '349px' }}>
         <img
           className="object-cover h-full w-full"
-          //style={{ width: '384px', height: '349px' }}
           src={image}
           alt="meal image"
         />
