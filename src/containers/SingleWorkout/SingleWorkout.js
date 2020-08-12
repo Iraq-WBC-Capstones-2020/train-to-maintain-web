@@ -64,7 +64,11 @@ const SingleWorkout = () => {
             </div>
           </div>
           <div className="md:w-5/12 w-full flex md:justify-center">
-            <img className="md:w-7/12 w-full h-full" src={workout.imgUrl}></img>
+            <img
+              className="md:w-7/12 w-full h-full"
+              src={workout.imgUrl}
+              alt="workout image"
+            ></img>
           </div>
         </div>
       </div>
