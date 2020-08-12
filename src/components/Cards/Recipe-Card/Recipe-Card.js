@@ -12,8 +12,13 @@ export default function RecipeCard({
 }) {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <div className=" w-screen h-2/3">
-        <img className="w-384 h-349" src={image} alt="meal image" />
+      <div style={{ width: '384px', height: '349px' }}>
+        <img
+          className="object-cover h-full w-full"
+          //style={{ width: '384px', height: '349px' }}
+          src={image}
+          alt="meal image"
+        />
       </div>
       <div className="px-6 py-4 flex flex-col justify-around items-center ">
         <h1 className="text-black-700 text-base font-bold text-xl mb-2 text-center">

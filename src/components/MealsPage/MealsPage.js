@@ -1,5 +1,6 @@
 import React from 'react';
 import RecipeCard from '../Cards/Recipe-Card/Recipe-Card';
+import DropDown from './DropDown';
 //import breakfast1 from '../Cards/Recipe-Card/img/meals/breakfast/breakfast1.jpg';
 
 const mealList = [
@@ -102,18 +103,23 @@ const mealList = [
 ];
 export default function MealsPage() {
   return (
-    <div className="flex flex-wrap -mb-4">
-      {mealList.map((meal) => (
-        <div class="text-gray-700 text-center px-4 py-2 m-4">
-          <RecipeCard
-            image={meal.image}
-            title={meal.title}
-            calories={meal.calories}
-            category={meal.category}
-            duration={meal.duration}
-          />
-        </div>
-      ))}
+    <div>
+      <div className="flex justify-end mt-6">
+        <DropDown />
+      </div>
+      <div className="flex flex-wrap mb-4">
+        {mealList.map((meal) => (
+          <div class="text-gray-700 text-center px-4 py-2 m-4">
+            <RecipeCard
+              image={meal.image}
+              title={meal.title}
+              calories={meal.calories}
+              category={meal.category}
+              duration={meal.duration}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
