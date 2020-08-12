@@ -1,0 +1,4 @@
+.disable-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Chrome/Safari/Webkit */
+}
