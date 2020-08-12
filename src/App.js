@@ -16,6 +16,8 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import SingleWorkout from './containers/SingleWorkout/SingleWorkout';
 import SingleBlog from './containers/SingleBlog/SingleBlog';
+import MealPage from './containers/MealPage/MealPage';
+
 const DefaultRoutes = () => {
   return (
     <>
@@ -28,6 +30,7 @@ const DefaultRoutes = () => {
         <Route path="/about" component={About} />
         <Route exact path="/blogs" component={Blogs} />
         <Route path="/blogs/:id" component={SingleBlog} />
+        <Route path="/Meal" component={MealPage} />
         <Redirect to="/notfound" />
       </Switch>
       <Footer />
