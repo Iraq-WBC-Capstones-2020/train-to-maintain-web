@@ -20,11 +20,20 @@ const SingleWorkout = () => {
       'Machine Chest Fly: 3 sets of 10',
       '50 push-ups for time',
     ],
-    videoUrls: [
-      'https://www.youtube.com/embed/rT7DgCr-3pg',
-      'https://www.youtube.com/embed/8iPEnn-ltC8',
-      'https://www.youtube.com/embed/Z57CtFmRMxA',
-      'https://www.youtube.com/embed/ihvdd0rPTiU',
+    videos: [
+      {
+        url: 'https://www.youtube.com/embed/rT7DgCr-3pg',
+        title: 'bench press',
+      },
+      {
+        url: 'https://www.youtube.com/embed/8iPEnn-ltC8',
+        title: 'dumbbell press',
+      },
+      {
+        url: 'https://www.youtube.com/embed/Z57CtFmRMxA',
+        title: 'machine fly',
+      },
+      { url: 'https://www.youtube.com/embed/ihvdd0rPTiU', title: 'push up' },
     ],
   };
   return (
@@ -80,12 +89,13 @@ const SingleWorkout = () => {
         })}
       </div>
       <div className="flex flex-col  items-center my-8">
-        {workout.videoUrls.map((video, index) => {
+        {workout.videos.map((video, index) => {
           return (
             <iframe
+              title={video.title}
               key={index}
               className="lg:w-6/12 md:w-10/12 md:h-screen-50 h-64 mb-6 "
-              src={video}
+              src={video.url}
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
