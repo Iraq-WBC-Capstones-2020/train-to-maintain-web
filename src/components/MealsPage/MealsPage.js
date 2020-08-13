@@ -11,6 +11,7 @@ const mealList = [
     calories: '95 Calories',
     category: 'Breakfast',
     duration: '2 min.',
+    id: 1,
   },
   {
     image:
@@ -19,6 +20,7 @@ const mealList = [
     calories: '187 Calories',
     category: 'Breakfast',
     duration: '2 min.',
+    id: 2,
   },
   {
     image:
@@ -27,6 +29,7 @@ const mealList = [
     calories: '170 Calories',
     category: 'Breakfast',
     duration: '15 min.',
+    id: 3,
   },
   {
     image:
@@ -35,6 +38,7 @@ const mealList = [
     calories: '390 Calories',
     category: 'Lunch',
     duration: '30 min.',
+    id: 4,
   },
   {
     image:
@@ -43,6 +47,7 @@ const mealList = [
     calories: '187 Calories',
     category: 'Lunch',
     duration: '10 min.',
+    id: 5,
   },
   {
     image:
@@ -51,6 +56,7 @@ const mealList = [
     calories: '150 Calories',
     category: 'Lunch',
     duration: '20-25 min.',
+    id: 6,
   },
   {
     image:
@@ -59,6 +65,7 @@ const mealList = [
     calories: '467 Calories',
     category: 'Dinner',
     duration: '25 min.',
+    id: 7,
   },
   {
     image:
@@ -67,6 +74,7 @@ const mealList = [
     calories: '344 Calories',
     category: 'Dinner',
     duration: '20 min.',
+    id: 8,
   },
   {
     image:
@@ -75,6 +83,7 @@ const mealList = [
     calories: '500 Calories',
     category: 'Dinner',
     duration: '25 min.',
+    id: 9,
   },
   {
     image:
@@ -83,6 +92,7 @@ const mealList = [
     calories: '100 Calories',
     category: 'Snacks',
     duration: '2 hrs.',
+    id: 10,
   },
   {
     image:
@@ -91,6 +101,7 @@ const mealList = [
     calories: '157 Calories',
     category: 'Snacks',
     duration: '25 min.',
+    id: 11,
   },
   {
     image:
@@ -99,6 +110,7 @@ const mealList = [
     calories: '106 Calories',
     category: 'Snacks',
     duration: '15 min.',
+    id: 12,
   },
 ];
 export default function MealsPage() {
@@ -109,14 +121,11 @@ export default function MealsPage() {
       </div>
       <div className="flex flex-wrap mb-4">
         {mealList.map((meal) => (
-          <div class="text-gray-700 text-center px-4 py-2 m-4">
-            <RecipeCard
-              image={meal.image}
-              title={meal.title}
-              calories={meal.calories}
-              category={meal.category}
-              duration={meal.duration}
-            />
+          <div
+            className="text-gray-700 text-center px-4 py-2 m-4"
+            key={meal.id}
+          >
+            <RecipeCard meal={meal} />
           </div>
         ))}
       </div>

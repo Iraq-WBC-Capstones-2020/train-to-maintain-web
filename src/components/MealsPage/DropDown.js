@@ -1,18 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './DropDown.css';
 const DropDown = () => {
-  const [category, setcategory] = useState('All');
-  const toggleCategory = () => {
-    if (category === 'All') {
-      setcategory('Arabic');
-    } else {
-      setcategory('All');
-    }
-  };
   return (
     <div className="group inline-block text-poppins text-secondary ">
       <button className="bg-primary text-white rounded-t-lg active:bg-pink-600 text-sm px-6 py-3 border shadow hover:shadow-lg outline-none focus:outline-none mx-4 flex items-center">
-        <span className="pr-1 font-semibold flex-1">{category}</span>
+        <span className="pr-1 font-semibold flex-1">All</span>
         <span>
           <svg
             className="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -25,15 +17,6 @@ const DropDown = () => {
         </span>
       </button>
       <ul className=" rounded-b-lg transform scale-0 group-hover:scale-100 absolute bg-primary float-left text-left text-white active:bg-pink-600 text-sm shadow hover:shadow-lg outline-none focus:outline-none mx-4">
-        <li
-          className={
-            'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
-            'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
-          }
-        >
-          All
-        </li>
-
         <li
           className={
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
