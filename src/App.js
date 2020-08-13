@@ -23,7 +23,7 @@ const DefaultRoutes = () => {
         <Route path="/home" component={Home} />
         <Route path="/meals" component={Meals} />
         <Route exact path="/workouts" component={Workouts} />
-        <Route path="/workouts/singleworkout" component={SingleWorkout} />
+        <Route path="/workouts/:id" component={SingleWorkout} />
         <Route path="/about" component={About} />
         <Route path="/blogs" component={Blogs} />
         <Redirect to="/notfound" />
