@@ -29,7 +29,7 @@ const MealPage = ({
               className=" mr-3 mt-3 text-primary"
               icon={faClock}
             />
-            18:00
+            {time}
           </span>
         </div>
       </div>
