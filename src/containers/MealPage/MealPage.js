@@ -14,22 +14,27 @@ const MealPage = ({
   method,
 }) => {
   return (
-    <div className="p-5">
-      <div className=" shadow-lg max-w-sm w-full md:w-11/12 lg:w-full lg:h-56 md:max-w-full md:flex md:justify-center">
+    <div className="p-5 container">
+      <div className=" shadow-lg max-w-lg w-full md:w-11/12 lg:w-full lg:h-56 md:max-w-full md:flex md:justify-center">
         <img
-          src={image}
+          src="https://p1.pxfuel.com/preview/981/467/683/oatmeal-honey-breakfast-dinner-lunch-fruits.jpg"
           className="h-48 md:h-auto md:w-64 w-64 mx-auto  lg:h-auto lg:w-56 flex-none bg-cover overflow-hidden"
-          alt="{title}"
+          alt={title}
         />
-        <div className="bg-white p-6 flex flex-col justify-between align-center md:w-9/12s leading-normal">
-          <h1 className="text-2xl">{title}</h1>
-          <p className="text-sm">{description}</p>
+        <div className="bg-white p-6 flex flex-col justify-between align-center md:w-9/12s w-full leading-normal">
+          <h1 className="text-2xl">breakfast</h1>
+          <p className="text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque tincidunt ligula nec magna semper fringilla. Fusce
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque tincidunt ligula nec magna semper fringilla. Fusce
+          </p>
           <span>
             <FontAwesomeIcon
               className=" mr-3 mt-3 text-primary"
               icon={faClock}
             />
-            {time}
+            18:00
           </span>
         </div>
       </div>
