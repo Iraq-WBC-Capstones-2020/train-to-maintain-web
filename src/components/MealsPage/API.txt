@@ -1,7 +1,0 @@
-{
-  image:"./breakfast3.png",
-  title:"Kiwi",
-  calories:"170 calory",
-  category:"breakfast",
-  duration:"20 min."
-}

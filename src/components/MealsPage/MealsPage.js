@@ -104,7 +104,7 @@ const mealList = [
 export default function MealsPage() {
   return (
     <div>
-      <div className="flex justify-end mt-6">
+      <div className="flex justify-end mt-6 pr-32">
         <DropDown />
       </div>
       <div className="flex flex-wrap mb-4">
