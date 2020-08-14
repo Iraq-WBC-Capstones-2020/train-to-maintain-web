@@ -15,10 +15,10 @@ export default function RecipeCard({
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}
-      className="lg:w-1/4 xl:w-1/4 md:w-1/3 sm:w-full overflow-hidden shadow-lg m-4"
+      className="lg:w-1/4 xl:w-1/3 md:w-1/3 sm:w-full overflow-hidden shadow-lg m-4"
     >
       <img
-        className="h-48 xl:h-64 w-full mx-auto object-cover"
+        className="h-48 w-full mx-auto object-cover"
         src={image}
         alt="breakfast"
       />

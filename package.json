@@ -20,7 +20,16 @@
     "react-mailchimp-form": "^1.0.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+<<<<<<< HEAD
     "react-scroll-to": "^3.0.0-beta.6",
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+    "tailwindcss": "^1.6.1"
+||||||||| c01adfc
+    "tailwindcss": "^1.5.2"
+=========
+=======
+>>>>>>> 2081a26b4a271ad34f779e7c914b9f116b455d37
     "react-swipeable": "^5.5.1",
     "react-twitter-embed": "^3.0.3",
     "tailwindcss": "^1.5.2"

@@ -125,7 +125,13 @@ export default function MealsPage() {
             className="text-gray-700 text-center px-4 py-2 m-4"
             key={meal.id}
           >
-            <RecipeCard meal={meal} />
+            <RecipeCard
+              image={meal.image}
+              title={meal.title}
+              calories={meal.calories}
+              category={meal.category}
+              duration={meal.duration}
+            />
           </div>
         ))}
       </div>
