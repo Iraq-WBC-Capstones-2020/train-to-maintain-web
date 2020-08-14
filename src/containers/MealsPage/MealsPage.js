@@ -1,6 +1,6 @@
 import React from 'react';
-import RecipeCard from '../Cards/Recipe-Card/Recipe-Card';
-import DropDown from './DropDown';
+import RecipeCard from '../../components/Cards/Recipe-Card/Recipe-Card';
+import DropDown from '../../components/DropDown/DropDown';
 //import breakfast1 from '../Cards/Recipe-Card/img/meals/breakfast/breakfast1.jpg';
 
 const mealList = [

@@ -17,12 +17,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD
-    "react-dropdown-aria": "^2.0.7",
-||||||| e9df546
-=======
     "react-mailchimp-form": "^1.0.2",
->>>>>>> fb56828bc3e6b5a88718b03fdd8bb54aab2dfee6
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-scroll-to": "^3.0.0-beta.6",
