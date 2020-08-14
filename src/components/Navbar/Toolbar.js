@@ -20,7 +20,7 @@ const Toolbar = ({ navbarOpen, handleToggleMenuClick }) => {
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-transparent navbar-expand-lg  ">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a
+            <span
               className={classNames(
                 'lg:text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-secondary',
                 { 'text-darkgray': !isDark }
@@ -31,7 +31,7 @@ const Toolbar = ({ navbarOpen, handleToggleMenuClick }) => {
                 maintain
                 <hr className="border-0 h-1 bg-primary" />
               </div>
-            </a>
+            </span>
             <button
               className={classNames(
                 `text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none text-secondary`,

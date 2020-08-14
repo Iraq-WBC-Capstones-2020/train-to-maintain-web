@@ -8,9 +8,10 @@ const Footer = () => {
       <img
         src={workoutImage}
         className="object-cover bg-center h-auto md:h-64 sm:h-64 w-full absolute"
+        alt="workout"
       />
       <h1 className="text-4xl p-5 select-none z-0 relative">
-        Train to{' '}
+        Train to
         <span className="border-b-4 border-primary z-40">Maintain</span>
       </h1>
 
