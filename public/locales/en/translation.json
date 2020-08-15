@@ -12,7 +12,8 @@
   },
   "buttons": {
     "showall": "show all",
-    "backtotop": "Back to top ⬆"
+    "backtotop": "Back to top ⬆",
+    "goback": "Go back"
   },
   "blogposts": {
     "header": "Nutrition, Health, and working out blogs"

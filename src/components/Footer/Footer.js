@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import workoutImage from './assets/workoutImage.jpg';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -6,6 +6,9 @@ import './Footer.css';
 const Footer = () => {
   const [lang, setLang] = useState('English');
   const { t, i18n } = useTranslation();
+  useEffect(() => {
+    lang === 'English' ? i18n.changeLanguage('en') : i18n.changeLanguage('ar');
+  }, []);
 
   const handleLanguageToggle = (language) => {
     lang === 'English' ? setLang('ألعربية') : setLang('English');
