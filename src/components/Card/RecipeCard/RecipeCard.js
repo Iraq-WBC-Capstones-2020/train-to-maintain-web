@@ -15,11 +15,11 @@ export default function RecipeCard({
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}
-      className="lg:w-1/4 xl:w-1/3 md:w-1/3 sm:w-full overflow-hidden shadow-lg mt-4 mb-4"
+      className="lg:w-1/4 xl:w-1/3 md:w-1/3 sm:w-full overflow-hidden shadow-lg mt-4 mb-4 p-4"
     >
-      <div style={{ width: '384px', height: '349px' }}>
+      <div style={{ height: '349px' }}>
         <img
-          className="object-cover h-full w-full"
+          className="object-cover h-full w-full flex flex-col justify-around items-center"
           src={image}
           alt="meal image"
         />
@@ -35,7 +35,7 @@ export default function RecipeCard({
         >
           See Recipe
         </button>
-        <div className="my-2 flex justify-center items-center">
+        <div className="my-4 flex justify-center items-center">
           <div className=" flex flex-col justify-center items-center w-1/3">
             <img src={caloriesIcon} className="w-1/4 mb-1" alt="calories" />
             <span className="bg-gray-200 rounded-full text-sm text-black text-center p-1">

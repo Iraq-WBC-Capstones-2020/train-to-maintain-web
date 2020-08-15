@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './DropDown.css';
 const DropDown = () => {
+  const [category, setCategory] = useState('All');
+  const [menuValue, setMenuValue] = useState('All');
+
+  function handleChange(e) {
+    console.log('this is it' + e.target.title);
+    setMenuValue(e.target.title);
+  }
+
   return (
     <div className="group inline-block text-poppins text-secondary ">
       <button className="bg-primary text-white rounded-t-lg active:bg-pink-600 text-sm px-6 py-3 border shadow hover:shadow-lg outline-none focus:outline-none mx-4 flex items-center">
-        <span className="pr-1 font-semibold flex-1">All</span>
+        <span className="pr-1 font-semibold flex-1">{menuValue}</span>
         <span>
           <svg
             className="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -22,6 +30,8 @@ const DropDown = () => {
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
             'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
           }
+          onClick={handleChange}
+          title="Breakfast"
         >
           Breakfast
         </li>
@@ -31,6 +41,8 @@ const DropDown = () => {
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
             'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
           }
+          onClick={handleChange}
+          title="Lunch"
         >
           Lunch
         </li>
@@ -40,6 +52,8 @@ const DropDown = () => {
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
             'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
           }
+          onClick={handleChange}
+          title="Dinner"
         >
           Dinner
         </li>
@@ -49,6 +63,8 @@ const DropDown = () => {
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
             'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
           }
+          onClick={handleChange}
+          title="Snacks"
         >
           Snacks
         </li>

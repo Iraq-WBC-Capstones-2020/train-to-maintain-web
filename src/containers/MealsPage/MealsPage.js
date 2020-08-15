@@ -23,9 +23,9 @@ export default function MealsPage() {
           <RecipeCard
             image={meal.image}
             title={meal.title}
-            calories={meal.calories}
+            calories={meal.nutritions[0].kcal}
             category={meal.category}
-            duration={meal.duration}
+            duration={meal.timeForPrep}
           />
         ))}
       </div>
