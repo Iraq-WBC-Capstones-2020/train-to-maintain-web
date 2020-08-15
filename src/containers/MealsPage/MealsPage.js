@@ -18,20 +18,15 @@ export default function MealsPage() {
       <div className="flex justify-end mt-6 pr-32">
         <DropDown />
       </div>
-      <div className="flex flex-wrap mb-4">
+      <div className="flex flex-wrap m-4">
         {mealList.map((meal) => (
-          <div
-            className="text-gray-700 text-center px-4 py-2 m-4"
-            key={meal.id}
-          >
-            <RecipeCard
-              image={meal.image}
-              title={meal.title}
-              calories={meal.calories}
-              category={meal.category}
-              duration={meal.duration}
-            />
-          </div>
+          <RecipeCard
+            image={meal.image}
+            title={meal.title}
+            calories={meal.calories}
+            category={meal.category}
+            duration={meal.duration}
+          />
         ))}
       </div>
     </div>
