@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 import MealsPic from './assets/Meals.jpg';
 import WorkoutPic from './assets/Workout.jpg';
 import BundlesPic from './assets/Bundles.jpg';
-
+import { useTranslation } from 'react-i18next';
 const LandingPage = () => {
+  const { t } = useTranslation();
   return (
     <>
       <video
@@ -24,17 +25,17 @@ const LandingPage = () => {
           Train To <span className="border-b-4 border-primary">Maintain</span>
         </h1>
         <h2 className="text-secondary text-center font-bold text-2xl relative">
-          YOUR PERSONAL TRAINING ASSISTANT
+          {t('landingpage.header')}
         </h2>
         <div className="flex flex-col items-center md:flex-row md:h-xxxl lg:h-la  justify-evenly p-2 ">
           <Link to="/meals">
-            <LandingPageCard image={MealsPic} title={'Meals'} />
+            <LandingPageCard image={MealsPic} title={t('navbar.meals')} />
           </Link>
           <Link to="/workouts">
-            <LandingPageCard image={WorkoutPic} title={'Workout'} />
+            <LandingPageCard image={WorkoutPic} title={t('navbar.workouts')} />
           </Link>
           <Link to="/home">
-            <LandingPageCard image={BundlesPic} title={'Home'} />
+            <LandingPageCard image={BundlesPic} title={t('navbar.home')} />
           </Link>
         </div>
       </div>

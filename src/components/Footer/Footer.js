@@ -7,7 +7,7 @@ const Footer = () => {
   const [lang, setLang] = useState('English');
   const { t, i18n } = useTranslation();
   useEffect(() => {
-    lang === 'English' ? i18n.changeLanguage('en') : i18n.changeLanguage('ar');
+    i18n.language === 'en' ? setLang('English') : setLang('ألعربية');
   }, []);
 
   const handleLanguageToggle = (language) => {
