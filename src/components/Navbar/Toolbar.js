@@ -4,8 +4,10 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link, useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import { useTranslation } from 'react-i18next';
 const Toolbar = ({ navbarOpen, handleToggleMenuClick }) => {
   const location = useLocation();
+  const { t } = useTranslation();
   const isDark =
     location.pathname === '/home' || location.pathname === '/about';
   const navLinksStyle = classNames(
@@ -47,23 +49,23 @@ const Toolbar = ({ navbarOpen, handleToggleMenuClick }) => {
             <ul className=" flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <Link to="/home" className={navLinksStyle}>
-                  Home
+                  {t('navbar.home')}
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/workouts" className={navLinksStyle}>
-                  Workouts
+                  {t('navbar.workouts')}
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/meals" className={navLinksStyle}>
-                  Meals
+                  {t('navbar.meals')}
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="/about" className={navLinksStyle}>
-                  about
+                  {t('navbar.about')}
                 </Link>
               </li>
             </ul>

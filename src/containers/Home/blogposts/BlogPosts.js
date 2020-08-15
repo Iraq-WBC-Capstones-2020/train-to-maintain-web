@@ -2,8 +2,9 @@ import React from 'react';
 import BlogCard from '../../../components/Card/BlogCard/BlogCard';
 import './BlogPosts.css';
 import { Link } from 'react-router-dom';
-
+import { useTranslation } from 'react-i18next';
 const BlogPosts = () => {
+  const { t } = useTranslation();
   const blogposts = [
     {
       title: '10 tips I wish I knew before I started to workout.',
@@ -29,7 +30,7 @@ const BlogPosts = () => {
   return (
     <section className="flex flex-col items-center bg-secondary">
       <h1 className=" md:text-3xl text-xl text-center font-bold text-darkgray my-10">
-        Nutrition, Health, and working out blogs
+        {t('blogposts.header')}
       </h1>
 
       <div className=" flex flex-col  items-center overflow-y-scroll  disable-scrollbar  w-screen md:h-xl h-xxl px-3">
@@ -46,7 +47,7 @@ const BlogPosts = () => {
       </div>
       <Link to="/blogs">
         <button className="bg-primary text-secondary px-5 py-2 my-4">
-          Show All
+          {t('buttons.showall')}
         </button>
       </Link>
     </section>

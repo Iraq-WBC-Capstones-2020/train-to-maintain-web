@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "home": "home",
+    "workouts": "workouts",
+    "meals": "meals",
+    "about": "about"
+  },
+  "newsletter": {
+    "subscribeto": "subscribe to our ",
+    "newsletter": "newsletter",
+    "rest": "to get the lates of our Blogs, workouts, and content!"
+  },
+  "buttons": {
+    "showall": "show all",
+    "backtotop": "Back to top ⬆",
+    "goback": "Go back"
+  },
+  "blogposts": {
+    "header": "Nutrition, Health, and working out blogs"
+  },
+  "socialmedia": {
+    "header": "Get the most out of socail media content creators"
+  },
+  "landingpage": {
+    "header": " YOUR PERSONAL TRAINING ASSISTANT"
+  }
+}

@@ -9,7 +9,9 @@ import Newsletter from './newsletter/Newsletter';
 import BlogPosts from './blogposts/BlogPosts';
 import SocialMedia from './soical media/SocialMedia';
 import { ScrollTo } from 'react-scroll-to';
+import { useTranslation } from 'react-i18next';
 const Home = () => {
+  const { t } = useTranslation();
   const [scrollAmount, setScrollAmount] = useState(window.scrollY);
   window.addEventListener('scroll', () => {
     setScrollAmount(window.scrollY);
@@ -36,7 +38,7 @@ const Home = () => {
               className="go-up bg-darkgray  text-sm text-secondary rounded-full p-3 z-10  shadow-xl hover:bg-primary focus:outline-none"
             >
               {' '}
-              Back to top ⬆
+              {t('buttons.backtotop')}
             </motion.button>
           )}
         </ScrollTo>

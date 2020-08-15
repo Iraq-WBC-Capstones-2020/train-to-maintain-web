@@ -5,7 +5,9 @@ import { motion } from 'framer-motion';
 import { useHistory } from 'react-router-dom';
 import propTypes from 'prop-types';
 import WorkoutsFile from '../../assets/Workouts.txt';
+import { useTranslation } from 'react-i18next';
 const SingleWorkout = ({ match }) => {
+  const { t } = useTranslation();
   const history = useHistory();
   const [workout, setWorkout] = useState({});
   useEffect(() => {
@@ -32,7 +34,7 @@ const SingleWorkout = ({ match }) => {
           whileTap={{ scale: 0.95 }}
           className="  bg-primary md:mb-4 mb-6 py-1 px-2 focus:outline-none text-secondary"
         >
-          Go Back
+          {t('buttons.goback')}
         </motion.button>
         <div className="h-xl   md:flex">
           <div className="mb-4 md:w-7/12  md:pt-8">
