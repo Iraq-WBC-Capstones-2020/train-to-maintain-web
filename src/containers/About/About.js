@@ -7,65 +7,52 @@ import TeamCard from '../../components/Card/TeamCard/TeamCard';
 
 const Member = [
   {
-    id: '7',
-    name: 'Osama Abdullah',
-    role: 'front-end web developer',
-    image: 'https://i.ytimg.com/vi/eVG-KfxPPbk/maxresdefault.jpg',
-  },
-  {
     id: '1',
-    name: 'Yazen Firas',
-    role: 'front-end web developer',
-    image: 'https://i.ytimg.com/vi/eVG-KfxPPbk/maxresdefault.jpg',
+    name: 'Osama Abdullah',
+    role: 'Lead engineer and front-end web developer',
+    image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011GKA4JEQ-191475249b45-512',
   },
   {
     id: '2',
-    name: 'Ahmed Faisal',
-    role: 'front-end web developer',
-    image: 'https://i.ytimg.com/vi/eVG-KfxPPbk/maxresdefault.jpg',
+    name: 'Yazen Firas',
+    role: 'Front-end web developer',
+    image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011FQKCVGQ-8f191df5cab4-512',
   },
   {
     id: '3',
-    name: 'Mahmoud Mansour',
-    role: 'front-end web developer',
-    image: 'https://i.ytimg.com/vi/eVG-KfxPPbk/maxresdefault.jpg',
+    name: 'Ahmed Faisal',
+    role: 'Front-end web developer',
+    image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011FQL6W0Y-c7aab93ef567-512',
   },
   {
     id: '4',
-    name: 'Shirin Muataz',
-    role: 'front-end web developer',
-    image: 'https://i.ytimg.com/vi/eVG-KfxPPbk/maxresdefault.jpg',
+    name: 'Mahmoud Mansour',
+    role: 'Front-end web developer',
+    image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011BCR71RD-f40d090b0b32-512',
   },
   {
     id: '5',
-    name: 'Evan Hameed',
-    role: 'front-end web developer',
-    image: 'https://i.ytimg.com/vi/eVG-KfxPPbk/maxresdefault.jpg',
+    name: 'Shirin Muataz',
+    role: 'Front-end web developer',
+    image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011FQKH0AC-f314d7a5b572-512',
   },
   {
     id: '6',
-    name: 'Aya Faisal',
-    role: 'front-end web developer',
-    image: 'https://i.ytimg.com/vi/eVG-KfxPPbk/maxresdefault.jpg',
+    name: 'Evan Hameed',
+    role: 'Front-end web developer',
+    image: 'https://ca.slack-edge.com/TV9LMJJ0P-U0110FBCLQM-302e8afd9f0b-512',
   },
 ];
 const About = () => {
   return (
     <>
       <img
-        className="bg-image absolute w-screen left-0 top-0 "
+        className="bg-image absolute w-screen left-0 top-0 object-cover"
         src={aboutImg}
       />
       <Header />
       <div className="lg:flex">
-        <div
-          className="w-screen lg:w-1/2 h-screen md:h-screen-50 xl:h-screen lg:ml-10 mb-20 mt-10 lg:mt-32 overflow-scroll"
-          style={{
-            backgroundColor: '#4527A0',
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-          }}
-        >
+        <div className="pink-story w-screen lg:w-1/2 h-screen md:h-screen-50 xl:h-screen lg:ml-10 mb-20 mt-10 lg:mt-48 overflow-scroll">
           <h1 className="text-secondary font-bold text-4xl text-center">
             Our story
           </h1>
@@ -87,7 +74,7 @@ const About = () => {
           </p>
         </div>
         <div
-          className="h-screen md:h-screen-50 xl:h-screen w-screen lg:w-1/2 lg:mr-10 lg:ml-5 mt-10 lg:mt-32"
+          className="h-screen md:h-screen-50 xl:h-screen w-screen lg:w-1/2 lg:mr-10 lg:ml-5 mt-10 lg:mt-48"
           style={{
             backgroundImage: `url(${storyImg})`,
             backgroundPosition: 'center',
@@ -102,8 +89,8 @@ const About = () => {
         </h1>
       </div>
       <section>
-        <h2 className="text-4xl text-center">Team behind Train To Maintain</h2>
-        <div className=" flex flex-row flex-wrap justify-evenly">
+        <h2 className="text-4xl text-center font-bold m-10">The Team</h2>
+        <div className=" flex flex-row flex-wrap justify-center">
           {Member.map((team) => {
             return (
               <TeamCard
