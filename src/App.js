@@ -15,6 +15,7 @@ import NotFound from './containers/NotFound/NotFound';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import SingleWorkout from './containers/SingleWorkout/SingleWorkout';
+import SingleBlog from './containers/SingleBlog/SingleBlog';
 const DefaultRoutes = () => {
   return (
     <>
@@ -25,7 +26,8 @@ const DefaultRoutes = () => {
         <Route exact path="/workouts" component={Workouts} />
         <Route path="/workouts/:id" component={SingleWorkout} />
         <Route path="/about" component={About} />
-        <Route path="/blogs" component={Blogs} />
+        <Route exact path="/blogs" component={Blogs} />
+        <Route path="/blogs/:id" component={SingleBlog} />
         <Redirect to="/notfound" />
       </Switch>
       <Footer />
@@ -36,7 +38,7 @@ const DefaultRoutes = () => {
 function App() {
   return (
     <>
-      <div className="">
+      <div>
         <Router>
           <Switch>
             <Route component={NotFound} path="/notfound" />

@@ -7,8 +7,13 @@ import * as serviceWorker from './serviceWorker';
 import './i18n';
 ReactDOM.render(
   <React.StrictMode>
-    {' '}
-    <Suspense fallback={<div>Loading ...</div>}>
+    <Suspense
+      fallback={
+        <div className=" h-screen text-xl md:text-3xl flex justify-center items-center text-primary font-bold">
+          Loading ...
+        </div>
+      }
+    >
       <App />
     </Suspense>
   </React.StrictMode>,

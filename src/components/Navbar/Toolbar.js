@@ -62,6 +62,11 @@ const Toolbar = ({ navbarOpen, handleToggleMenuClick }) => {
                   {t('navbar.meals')}
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/blogs" className={navLinksStyle}>
+                  {t('navbar.blogs')}
+                </Link>
+              </li>
 
               <li className="nav-item">
                 <Link to="/about" className={navLinksStyle}>
