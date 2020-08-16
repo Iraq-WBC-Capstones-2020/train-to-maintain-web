@@ -2,30 +2,15 @@ import React, { useState } from 'react';
 import './DropDown.css';
 const DropDown = (props) => {
   const [menuValue, setMenuValue] = useState('All');
-  const [filterFlag, setfilterFlag] = useState();
+
   //const [category, setCategory] = useState('');
 
   //props.setCategory(menuValue);
 
   function handleChange(e) {
-    setfilterFlag(true);
     setMenuValue(e.target.title);
-    //props.setCategory(menuValue);
-
-    if (filterFlag) {
-      mealFilter();
-      setfilterFlag(false);
-    }
-  }
-
-  function mealFilter() {
-    let result =
-      menuValue === 'All'
-        ? props.mealList
-        : props.mealList.filter((meal) => meal.category === menuValue);
-
-    console.log('the result' + result);
-    props.setMealList(result);
+    props.setfilterFlag(true);
+    props.setCategory(menuValue);
   }
 
   return (
@@ -49,10 +34,7 @@ const DropDown = (props) => {
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
             'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
           }
-          onClick={(e) => {
-            handleChange(e);
-            setfilterFlag(true);
-          }}
+          onClick={handleChange}
           title="All"
         >
           All
@@ -63,10 +45,7 @@ const DropDown = (props) => {
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
             'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
           }
-          onClick={(e) => {
-            handleChange(e);
-            setfilterFlag(true);
-          }}
+          onClick={handleChange}
           title="Breakfast"
         >
           Breakfast
@@ -77,10 +56,7 @@ const DropDown = (props) => {
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
             'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
           }
-          onClick={(e) => {
-            handleChange(e);
-            setfilterFlag(true);
-          }}
+          onClick={handleChange}
           title="Lunch"
         >
           Lunch
@@ -91,10 +67,7 @@ const DropDown = (props) => {
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
             'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
           }
-          onClick={(e) => {
-            handleChange(e);
-            setfilterFlag(true);
-          }}
+          onClick={handleChange}
           title="Dinner"
         >
           Dinner
@@ -105,9 +78,7 @@ const DropDown = (props) => {
             'text-sm py-2 px-4 pr-16 font-normal block w-full whitespace-no-wrap bg-transparent ' +
             'bg-primary hover:bg-white text-white hover:text-primary rounded-b-lg'
           }
-          onClick={(e) => {
-            handleChange(e);
-          }}
+          onClick={handleChange}
           title="Snacks"
         >
           Snacks

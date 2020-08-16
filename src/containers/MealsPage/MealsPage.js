@@ -5,7 +5,8 @@ import MealsFile from '../../assets/meals.txt';
 
 export default function MealsPage() {
   const [mealList, setMealList] = useState([]);
-
+  const [filterFlag, setfilterFlag] = useState();
+  const [category, setCategory] = useState();
   //console.log('this initial category' + category);
   useEffect(() => {
     fetch(MealsFile)
@@ -13,12 +14,30 @@ export default function MealsPage() {
       .then((data) => {
         setMealList(data.meals);
       });
+    if (filterFlag) {
+      mealFilter();
+      setfilterFlag(false);
+    }
   }, []);
+
+  function mealFilter() {
+    let result =
+      category === 'All'
+        ? mealList
+        : mealList.filter((meal) => meal.category === category);
+
+    console.log('the result' + result);
+    setMealList(result);
+  }
 
   return (
     <div>
       <div className="flex justify-end mt-6 pr-32">
-        <DropDown mealList={mealList} setMealList={setMealList} />
+        <DropDown
+          setMealList={setMealList}
+          setfilterFlag={setfilterFlag}
+          setCategory={setCategory}
+        />
       </div>
       <div className="flex flex-wrap m-4">
         {mealList.map((meal) => (
