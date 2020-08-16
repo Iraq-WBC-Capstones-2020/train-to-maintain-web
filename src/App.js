@@ -31,6 +31,7 @@ const DefaultRoutes = () => {
         <Route exact path="/blogs" component={Blogs} />
         <Route path="/blogs/:id" component={SingleBlog} />
         <Route path="/Meal" component={MealPage} />
+        <Route path="/meal/:id" component={MealPage} />
         <Redirect to="/notfound" />
       </Switch>
       <Footer />
