@@ -5,18 +5,20 @@ import MealsFile from '../../assets/meals.txt';
 
 export default function MealsPage() {
   const [mealList, setMealList] = useState([]);
+
+  //console.log('this initial category' + category);
   useEffect(() => {
     fetch(MealsFile)
       .then((resp) => resp.json())
       .then((data) => {
         setMealList(data.meals);
-        console.log(data.meals);
       });
   }, []);
+
   return (
     <div>
       <div className="flex justify-end mt-6 pr-32">
-        <DropDown />
+        <DropDown mealList={mealList} setMealList={setMealList} />
       </div>
       <div className="flex flex-wrap m-4">
         {mealList.map((meal) => (
