@@ -47,6 +47,12 @@ const SideNav = ({ navbarOpen, handleToggleMenuClick, handleCloseNavbar }) => {
           </li>
 
           <li>
+            <Link onClick={handleCloseNavbar} to="/blogs" className="font-bold">
+              {t('navbar.blogs')}
+            </Link>
+          </li>
+
+          <li>
             <Link onClick={handleCloseNavbar} to="/about" className="font-bold">
               {t('navbar.about')}
             </Link>
