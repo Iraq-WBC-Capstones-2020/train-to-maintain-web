@@ -17,6 +17,10 @@ module.exports = {
         pinky: '#FF619A',
         darkgray: '#272727',
       },
+
+      fontFamily: {
+        poppins: ['Poppins'],
+      },
     },
   },
   variants: {},
