@@ -26,7 +26,7 @@ const DefaultRoutes = () => {
         <Route path="/workouts" component={Workouts} />
         <Route path="/about" component={About} />
         <Route path="/blogs" component={Blogs} />
-        <Route path="/Meal" component={MealPage} />
+        <Route path="/meal/:id" component={MealPage} />
         <Redirect to="/notfound" />
       </Switch>
       <Footer />
