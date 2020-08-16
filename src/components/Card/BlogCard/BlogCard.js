@@ -19,8 +19,10 @@ const BlogCard = ({ title, overview, imgUrl, authorName, publishDate }) => {
       ></div>
       <div className=" bg-primary  p-4 flex flex-col justify-between leading-normal shadow-2xl font-bold">
         <div className="mb-8">
-          <div className=" text-secondary font-bold text-xl   ">{title}</div>
-          <div className="flex align-center  justify-between w-56 mb-2 ">
+          <div className=" text-secondary font-bold text-xl  uppercase">
+            {title}
+          </div>
+          <div className="flex align-center  justify-between w-64 mb-2 ">
             <p>
               <small className="text-xs   text-pinky font-bold opacity-75">
                 By {authorName}
