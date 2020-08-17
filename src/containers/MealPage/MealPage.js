@@ -21,7 +21,7 @@ const MealPage = ({ match }) => {
       });
   };
   return (
-    <div className="p-5 ">
+    <div className="p-5">
       <div className=" shadow-lg md:flex md:justify-center">
         <img
           src={meal.image}
@@ -43,13 +43,13 @@ const MealPage = ({ match }) => {
       <div>
         <div className="border-b-2">
           <h1 className="text-3xl pl-4 py-3">Nutritions</h1>
-          <div className=" max-w-2xl pb-10 flex flex-row flex-wrap items-center md:flex-row md:justify-between md:m-2 mt-2">
+          <div className="pb-10 flex flex-row flex-wrap items-center md:flex-row md:m-2 mt-2">
             {meal.id &&
               meal.nutritions.map((info, idx) => {
                 return (
                   <div
                     key={idx}
-                    className="p-2 mt-2 mr-2 w-32 bg-primary items-center text-indigo-100 leading-none lg:rounded-sm flex lg:inline-flex"
+                    className="p-2 mt-2 mr-4 w-32 bg-primary items-center text-indigo-100 leading-none lg:rounded-sm flex lg:inline-flex"
                     role="alert"
                   >
                     <span className="flex rounded-full bg-secondary text-darkgray uppercase px-2 py-1 text-xs font-bold mr-3">
