@@ -6,10 +6,6 @@ const Meals = () => {
   const [meals, setMeals] = useState([]);
   const [category, setCategory] = useState('All');
   useEffect(() => {
-    fetchMeals();
-  }, [category, meals]);
-
-  const fetchMeals = () => {
     fetch(mealsfile)
       .then((resp) => resp.json())
       .then((data) => {
@@ -18,7 +14,8 @@ const Meals = () => {
         );
         category === 'All' ? setMeals(data.meals) : setMeals(filtered);
       });
-  };
+  }, [category]);
+
   const handleCategoryChange = (type) => {
     setCategory(type);
   };
