@@ -3,7 +3,7 @@ import RecipeCard from '../../components/Card/RecipeCard/RecipeCard';
 import mealsfile from '../../assets/Meals.txt';
 import { Link } from 'react-router-dom';
 const Meals = () => {
-  const [meals, setMeals] = useState([]);
+  const [meals, setMeals] = useState();
   const [category, setCategory] = useState('All');
   useEffect(() => {
     fetchMeals();
