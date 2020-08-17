@@ -52,25 +52,17 @@ const About = () => {
       />
       <Header />
       <div className="lg:flex">
-        <div className="pink-story w-screen lg:w-1/2 h-screen md:h-screen-50 xl:h-screen lg:ml-10 mb-20 mt-10 lg:mt-48 overflow-scroll">
-          <h1 className="text-secondary font-bold text-4xl text-center">
+        <div className="pink-story w-screen lg:w-1/2 h-screen md:h-screen-50 xl:h-screen lg:ml-10 mb-20 mt-10 lg:mt-48">
+          <h1 className="text-secondary font-bold text-4xl text-center mt-5">
             Our story
           </h1>
           <p className="text-secondary mt-5 ml-5 mr-5 lg:ml-10 lg:mr-10 mb-20">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            We are a group of people who loves to maintain our health and bodies
+            just as much as we love programming. After we gained the experience
+            to build web applications we were so passionate to build this
+            website because we know there are many obstacles that bodybuilders
+            face. With this website,
+            <span className="font-bold"> WE WILL CRUSH THEM TOGETHER.</span>
           </p>
         </div>
         <div
