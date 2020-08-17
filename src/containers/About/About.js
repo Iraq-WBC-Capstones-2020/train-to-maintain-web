@@ -49,6 +49,7 @@ const About = () => {
       <img
         className="bg-image absolute w-screen left-0 top-0 object-cover"
         src={aboutImg}
+        alt="team member"
       />
       <Header />
       <div className="lg:flex">

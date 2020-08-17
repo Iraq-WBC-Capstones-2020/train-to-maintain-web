@@ -12,7 +12,7 @@ const SingleWorkout = ({ match }) => {
   const [workout, setWorkout] = useState({});
   useEffect(() => {
     fetchSingleWorkout();
-  }, []);
+  });
   const fetchSingleWorkout = () => {
     fetch(WorkoutsFile)
       .then((resp) => resp.json())

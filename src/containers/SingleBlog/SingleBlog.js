@@ -5,7 +5,7 @@ const SingleBlog = ({ match }) => {
   const [blog, setBlog] = useState({});
   useEffect(() => {
     fetchSingleWorkout();
-  }, []);
+  });
   const fetchSingleWorkout = () => {
     fetch(blogsfile)
       .then((resp) => resp.json())

@@ -8,7 +8,7 @@ const Footer = () => {
   const { t, i18n } = useTranslation();
   useEffect(() => {
     i18n.language === 'en' ? setLang('English') : setLang('ألعربية');
-  }, []);
+  });
 
   const handleLanguageToggle = (language) => {
     lang === 'English' ? setLang('ألعربية') : setLang('English');

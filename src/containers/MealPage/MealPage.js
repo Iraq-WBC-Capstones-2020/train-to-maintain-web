@@ -9,7 +9,7 @@ const MealPage = ({ match }) => {
   const [meal, setMeal] = useState({});
   useEffect(() => {
     mealFetch();
-  }, []);
+  });
   const mealFetch = () => {
     fetch(MealData)
       .then((resp) => resp.json())
