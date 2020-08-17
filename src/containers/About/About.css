@@ -1,0 +1,25 @@
+.bg-image {
+  z-index: -10;
+  height: 75vh;
+}
+.pink-story {
+  background-color: #4527a0;
+  background-position: center;
+  background-size: cover;
+}
+
+.textDream {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 760px) {
+  .bg-image {
+    height: 60vh;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .bg-image {
+    height: 45vh;
+  }
+}
