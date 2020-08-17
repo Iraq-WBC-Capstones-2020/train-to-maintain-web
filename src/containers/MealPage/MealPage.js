@@ -26,7 +26,7 @@ const MealPage = ({ match }) => {
         <img
           src={meal.image}
           className="h-48 md:h-auto md:w-64 w-64 mx-auto  lg:h-auto lg:w-56 flex-none bg-cover overflow-hidden"
-          alt={meal.title}
+          alt={'meal title'}
         />
         <div className="bg-white p-6 flex flex-col justify-between align-center md:w-9/12s w-full leading-normal">
           <h1 className="text-2xl">{meal.title} </h1>

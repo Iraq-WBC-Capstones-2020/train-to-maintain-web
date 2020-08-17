@@ -19,7 +19,7 @@ const Footer = () => {
       <img
         src={workoutImage}
         className="object-cover bg-center h-auto md:h-64 sm:h-64 w-full absolute"
-        alt="Two young couple workout"
+        alt="couple workout"
       />
       <h1 className="text-4xl p-5 select-none z-0 relative">
         Train to
@@ -69,13 +69,13 @@ const Footer = () => {
                   ألعربية
                 </li>
               ) : (
-                <li
-                  className="rounded-sm px-3 py-1 hover:bg-purple-700"
-                  onClick={() => handleLanguageToggle('en')}
-                >
-                  English
-                </li>
-              )}
+                  <li
+                    className="rounded-sm px-3 py-1 hover:bg-purple-700"
+                    onClick={() => handleLanguageToggle('en')}
+                  >
+                    English
+                  </li>
+                )}
             </ul>
           </div>
         </div>
