@@ -7,37 +7,37 @@ import TeamCard from '../../components/Card/TeamCard/TeamCard';
 
 const Member = [
   {
-    id: '1',
+    id: 1,
     name: 'Osama Abdullah',
-    role: 'Lead engineer and front-end web developer',
+    role: 'Lead engineer',
     image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011GKA4JEQ-191475249b45-512',
   },
   {
-    id: '2',
+    id: 2,
     name: 'Yazen Firas',
     role: 'Front-end web developer',
     image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011FQKCVGQ-8f191df5cab4-512',
   },
   {
-    id: '3',
+    id: 3,
     name: 'Ahmed Faisal',
     role: 'Front-end web developer',
     image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011FQL6W0Y-c7aab93ef567-512',
   },
   {
-    id: '4',
+    id: 4,
     name: 'Mahmoud Mansour',
     role: 'Front-end web developer',
     image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011BCR71RD-f40d090b0b32-512',
   },
   {
-    id: '5',
+    id: 5,
     name: 'Shirin Muataz',
     role: 'Front-end web developer',
     image: 'https://ca.slack-edge.com/TV9LMJJ0P-U011FQKH0AC-f314d7a5b572-512',
   },
   {
-    id: '6',
+    id: 6,
     name: 'Evan Hameed',
     role: 'Front-end web developer',
     image: 'https://ca.slack-edge.com/TV9LMJJ0P-U0110FBCLQM-302e8afd9f0b-512',
@@ -53,15 +53,16 @@ const About = () => {
       <Header />
       <div className="lg:flex">
         <div className="pink-story w-screen lg:w-1/2 h-screen md:h-screen-50 xl:h-screen lg:ml-10 mb-20 mt-10 lg:mt-48">
-          <h1 className="text-secondary font-bold text-4xl text-center mt-5">
+          <h1 className="text-secondary font-bold text-5xl text-center mt-5">
             Our story
           </h1>
-          <p className="text-secondary mt-5 ml-5 mr-5 lg:ml-10 lg:mr-10 mb-20">
+          <p className="text-secondary mt-5 ml-5 mr-5 lg:ml-10 lg:mr-10  text-3xl">
             We are a group of people who loves to maintain our health and bodies
-            just as much as we love programming. After we gained the experience
-            to build web applications we were so passionate to build this
-            website because we know there are many obstacles that bodybuilders
-            face. With this website,
+            just as much as we love programming. <br /> After we gained the
+            experience to build web applications we were so passionate to build
+            this website because we know there are many obstacles that
+            bodybuilders face. With this website,
+            <br />
             <span className="font-bold"> WE WILL CRUSH THEM TOGETHER.</span>
           </p>
         </div>
@@ -86,6 +87,7 @@ const About = () => {
           {Member.map((team) => {
             return (
               <TeamCard
+                key={team.id}
                 id={team.id}
                 name={team.name}
                 role={team.role}
