@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './MealPage.css';
-import MealData from './assets/Meals.txt';
+import MealData from '../../assets/Meals.txt';
 import propTypes from 'prop-types';
 
 const MealPage = ({ match }) => {

@@ -14,7 +14,8 @@
   "buttons": {
     "showall": "show all",
     "backtotop": "Back to top ⬆",
-    "goback": "Go back"
+    "goback": "Go back",
+    "seerecipe": "See Recipe"
   },
   "blogposts": {
     "header": "Nutrition, Health, and working out blogs"

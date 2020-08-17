@@ -14,7 +14,8 @@
   "buttons": {
     "showall": "اظهار المزيد",
     "backtotop": "⬆ألصعود الى الاعلى",
-    "goback": "ألرجوع"
+    "goback": "ألرجوع",
+    "seerecipe": "ألوصفة"
   },
   "blogposts": {
     "header": "مدونات حول التغذية والصحة والتدريب"

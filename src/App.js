@@ -24,13 +24,13 @@ const DefaultRoutes = () => {
       <Navbar />
       <Switch>
         <Route path="/home" component={Home} />
-        <Route path="/meals" component={Meals} />
+        <Route exact path="/meals" component={Meals} />
+        <Route path="/meals/:id" component={MealPage} />
         <Route exact path="/workouts" component={Workouts} />
         <Route path="/workouts/:id" component={SingleWorkout} />
         <Route path="/about" component={About} />
         <Route exact path="/blogs" component={Blogs} />
         <Route path="/blogs/:id" component={SingleBlog} />
-        <Route path="/meal/:id" component={MealPage} />
         <Redirect to="/notfound" />
       </Switch>
       <Footer />

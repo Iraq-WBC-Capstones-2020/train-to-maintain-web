@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import RecipeCard from '../../components/Card/RecipeCard/RecipeCard';
 import mealsfile from '../../assets/Meals.txt';
+import { Link } from 'react-router-dom';
 const Meals = () => {
   const [meals, setMeals] = useState([]);
   const [category, setCategory] = useState('All');
@@ -11,14 +12,10 @@ const Meals = () => {
     fetch(mealsfile)
       .then((resp) => resp.json())
       .then((data) => {
-        if (category === 'All') {
-          setMeals(data.meals);
-        } else {
-          const filtered = data.meals.filter(
-            (meal) => meal.category === category
-          );
-          setMeals(filtered);
-        }
+        const filtered = data.meals.filter(
+          (meal) => meal.category === category
+        );
+        category === 'All' ? setMeals(data.meals) : setMeals(filtered);
       });
   };
   const handleCategoryChange = (type) => {
@@ -76,14 +73,21 @@ const Meals = () => {
       <div className=" flex flex-wrap justify-center mb-20">
         {meals.map((meal) => {
           return (
-            <RecipeCard
-              key={meal.id}
-              image={meal.image}
-              duration={meal.timeForPrep}
-              title={meal.title}
-              category={meal.category}
-              calories={meal.nutritions[0].kcal}
-            />
+            <>
+              <Link
+                className="lg:w-1/4 xl:w-1/4 md:w-1/3 sm:w-full m-4"
+                to={`/meals/${meal.id}`}
+              >
+                <RecipeCard
+                  key={meal.id}
+                  image={meal.image}
+                  duration={meal.timeForPrep}
+                  title={meal.title}
+                  category={meal.category}
+                  calories={meal.nutritions[0].kcal}
+                />
+              </Link>
+            </>
           );
         })}
       </div>
