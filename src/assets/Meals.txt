@@ -1,0 +1,293 @@
+{
+  "meals": [
+    {
+      "id": "1",
+      "title": "Baked courgette & tomato gratin",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/06/courgette-and-tomato-gratin.jpg",
+      "description": "Make the most of courgette and tomatoes in this gratin, with melted mozzarella, fresh basil and a crunchy breadcrumb topping. It’s a great freezing dish",
+      "timeForPrep": "20 mins",
+      "category":"lunch",
+      "nutritions": [
+        {
+          "kcal": 427,
+          "title": "kcal"
+        },
+        {
+          "kcal": "23g",
+          "title": "fat"
+        },
+        {
+          "kcal": "33g",
+          "title": "carbs"
+        },
+        {
+          "kcal": "6g",
+          "title": "sugers"
+        },
+        {
+          "kcal": "20g",
+          "title": "protain"
+        }
+      ],
+      "ingredients": [
+        "2 medium courgettes, sliced lengthways about ½cm thick",
+        "1 tbsp olive oil, plus extra for the dish and for drizzling",
+        "400g can chopped tomatoes, blitzed in a food processor",
+        "1 garlic clove, finely chopped",
+        "handful of fresh basil (optional)",
+        "50g polenta or semolina flour",
+        "50g plain flour",
+        "1 large egg, beaten",
+        "1 ball of mozzarella, sliced (225g)",
+        "10g parmesan or vegetarian alternative, grated",
+        "50g breadcrumbs"
+      ],
+      "method": [
+        "Sprinkle the courgettes with a pinch of sea salt flakes and lay them on a plate with another plate on top. Put a weight or tin on top to help push out the liquid",
+        "Heat 1 tbsp olive oil in a non-stick frying pan and add the tomatoes and garlic. Cook over a medium heat, stirring, for 5 mins until thickened. Tear in the basil, if using, and season.",
+        "Heat the oven to 200C/180C fan/gas 6 and oil a roasting dish. Combine the flours in a bowl. Pour away the water from the courgette. Dip the courgette slices into the egg, then into the flour, and arrange in a layer over the bottom of the dish. Top with a few slices of mozzarella, followed by a layer of the tomato sauce, and repeat with another layer of courgette, mozzarella and sauce. Toss the cheese and breadcrumbs together, then scatter over the top.",
+        "Drizzle with a little more olive oil, and bake for 40-45 mins until golden and bubbling. Serve with a herby red onion salad and some bread to mop it up, if you like. Can be frozen for up to two months."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Falafel lunchbox",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2020/05/falafel-lunch-box.jpg?itok=Sl3rbtLQ",
+      "description": "Make this falafel salad fun with a bento-style lunchbox. It’s great for toddlers and young children who prefer lunches with lots of individual elements. Use shop-bought falafel or make our Edamame falafel",
+      "timeForPrep": "10 mins",
+       "category":"lunch",
+      "nutritions": [
+        { "kcal": 500, "title": "kcal" },
+        { "kcal": "16g", "title": "fat" },
+        { "kcal": "61g", "title": "carbs" },
+        { "kcal": "15g", "title": "sugers" },
+        { "kcal": "19g", "title": "protain" }
+      ],
+      "ingredients": [
+        "250g pouch cooked grains or lentils (we used red & white quinoa)",
+        "handful of baby spinach",
+        "¼ cucumber, chopped",
+        "handful of cherry tomatoes, halved",
+        "2 carrots, grated",
+        "1 pomegranate, seeds only",
+        "10 olives (optional)",
+        "12 falafel",
+        "4 tbsp hummus",
+        "drizzle of olive oil (optional)",
+        "½ lemon, quartered"
+      ],
+      "method": [
+        "Divide the grains between the lunchboxes. Top each one with the vegetables, falafel, a spoonful of hummus and a drizzle of oil, if using, or divide the ingredients between the compartments of a bento-style lunchbox. Put a lemon in each box for squeezing over just before eating."
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Miso brown rice & chicken salad",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--350512_11.jpg",
+      "description": "Low in fat and a great source of iron, this Japanese-inspired meal gets the ‘superhealthy’ tag",
+      "timeForPrep": "15 mins",
+      "category":"breakfast",
+      "nutritions": [
+        { "kcal": 419, "title": "kcal" },
+        { "kcal": "7g", "title": "fat" },
+        { "kcal": "53g", "title": "carbs" },
+        { "kcal": "4g", "title": "sugers" },
+        { "kcal": "39g", "title": "protain" }
+      ],
+      "ingredients": [
+        "120g brown basmati rice",
+        "2 skinless chicken breasts",
+        "140g sprouting broccoli",
+        "4 spring onions, cut into diagonal slices",
+        "1 tbsp toasted sesame seeds",
+        "2 tsp miso paste",
+        "1 tbsp rice vinegar",
+        "1 tbsp mirin",
+        "1 tsp grated ginger"
+      ],
+      "method": [
+        "Cook the rice following the pack instructions, then drain and keep warm. While it’s cooking, place the chicken breasts into a pan of boiling water so they are completely covered. Boil for 1 min, then turn off the heat, place a lid on and let sit for 15 mins. When cooked through, cut into slices.",
+        "Boil the broccoli until tender. Drain, rinse under cold water and drain again.",
+        "For the dressing, mix the miso, rice vinegar, mirin and ginger together.",
+        "Divide the rice between two plates and scatter over the spring onions and sesame seeds. Place the broccoli and chicken slices on top. To finish, drizzle over the dressing."
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Spaghetti with sardines",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--922495_11.jpg",
+      "description": "This storecupboard supper is super quick and superhealthy to boot",
+      "timeForPrep": "5 mins",
+      "category":"dinner",
+      "nutritions": [
+        { "kcal": 495, "title": "kcal" },
+        { "kcal": "14g", "title": "fat" },
+        { "kcal": "77g", "title": "carbs" },
+        { "kcal": "5g", "title": "sugers" },
+        { "kcal": "21g", "title": "protain" }
+      ],
+      "ingredients": [
+        "400g spaghetti",
+        "1 tbsp olive oil",
+        "2 garlic cloves, crushed",
+        "pinch chilli flakes",
+        "227g can chopped tomatoes",
+        "2 x 95g cans skinless and boneless sardines in tomato sauce",
+        "100g pitted black olives, roughly chopped",
+        "1 tbsp capers, drained",
+        "small handful parsley, chopped"
+      ],
+      "method": [
+        "Cook the spaghetti in a large pan of boiling salted water according to pack instructions. Meanwhile, make the sauce. Heat the oil in a medium pan and cook the garlic for 1 min. Add the chilli flakes, tomatoes and sardines, breaking up roughly with a wooden spoon. Heat for 2-3 mins, then stir in the olives, capers and most of the parsley. Mix well to combine",
+        "Drain the pasta, reserving a couple of tbsp of the water. Add the pasta to the sauce and mix well, adding the reserved water if the sauce is a little thick. Divide between 4 bowls and sprinkle with the remaining parsley."
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Zingy salmon & brown rice salad",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--683463_11.jpg",
+      "description": "This summery recipe has the ideal combination of slow-releasing carbs, lean protein and heart-friendly fats ",
+      "timeForPrep": "15 mins",
+         "category":"dinner",
+      "nutritions": [
+        { "kcal": 497, "title": "kcal" },
+        { "kcal": "15g", "title": "fat" },
+        { "kcal": "61g", "title": "carbs" },
+        { "kcal": "6g", "title": "sugers" },
+        { "kcal": "34g", "title": "protain" }
+      ],
+      "ingredients": [
+        "200g brown basmati rice",
+        "200g frozen soya beans, defrosted",
+        "2 salmon fillets",
+        "1 cucumber, diced",
+        "small bunch spring onions, sliced",
+        "small bunch coriander, roughly chopped",
+        "zest and juice 1 lime",
+        "1 red chilli, diced, deseeded if you like",
+        "4 tsp light soy sauce"
+      ],
+      "method": [
+        "Cook the rice following pack instructions and 3 mins before it’s done, add the soya beans. Drain and cool under cold running water.",
+        "Meanwhile, put the salmon on a plate, then microwave on High for 3 mins or until cooked through. Allow to cool slightly, remove the skin with a fork, then flake.",
+        "Gently fold the cucumber, spring onions, coriander and salmon into the rice and beans. In a separate bowl, mix the lime zest and juice, chilli and soy, then pour over the rice before serving."
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Tomato & tamarind fish curry",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--1309531_1.jpg",
+      "description": "Use a sustainable white fish like hake and serve up this healthy, Indian spice-pot with green beans and coriander",
+      "timeForPrep": "10 mins",
+         "category":"dinner",
+      "nutritions": [
+        { "kcal": 224, "title": "kcal" },
+        { "kcal": "7g", "title": "fat" },
+        { "kcal": "11g", "title": "carbs" },
+        { "kcal": "9g", "title": "sugers" },
+        { "kcal": "31g", "title": "protain" }
+      ],
+      "ingredients": [
+        "6 garlic cloves",
+        "1 red chilli, roughly chopped (deseeded if you don't like it too hot)",
+        "thumb-sized piece ginger, peeled and roughly chopped",
+        "1 tsp turmeric",
+        "1 tbsp ground coriander",
+        "1 tbsp rapeseed oil",
+        "2 tsp cumin seeds",
+        "1 tsp fennel seed",
+        "2 x 400g cans chopped tomatoes",
+        "200g green beans, trimmed and halved",
+        "1 tbsp tamarind paste",
+        "4 firm white fish fillets (we used hake)",
+        "handful coriander leaves, roughly chopped",
+        "cooked basmati rice, to serve"
+      ],
+      "method": [
+        "Blitz together the garlic, chilli, ginger, turmeric and ground coriander with 3 tbsp water. Heat the oil in a large pan and toast the cumin and fennel seeds, letting them sizzle until aromatic. Add the ginger paste and fry for 3 mins.",
+        "Empty the tomatoes into the spice pan, plus a can of water. Add the beans, bring to the boil, then turn down the heat and simmer for 5 mins. Stir in the tamarind paste. Add the fish fillets, generously season with ground black pepper, cover and simmer for 10 mins. Take off the lid, carefully turn the fillets, then bubble the sauce until the fish is cooked through and the sauce is thick. Sprinkle over the coriander leaves and serve with rice."
+      ]
+    },
+    {
+      "title": "Healthy porridge bowl",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/01/healthy-porridge.jpg",
+      "description": "Start your day right with this filling bowl of oats, berries, banana and seeds. It's healthy and packed with nutrients to fuel body and mind",
+      "timeForPrep": "10 mins",
+       "category":"breakfast",
+      "nutritions": [
+        { "kcal": 533, "title": "kcal" },
+        { "kcal": "19g", "title": "fat" },
+        { "kcal": "66g", "title": "carbs" },
+        { "kcal": "14g", "title": "sugers" },
+        { "kcal": "17g", "title": "protain" }
+      ],
+      "ingredients": [
+        "100g frozen raspberries",
+        "1 orange, ½ sliced and ½ juiced",
+        "150g porridge oats",
+        "100ml milk",
+        "½ banana, sliced",
+        "2 tbsp smooth almond butter",
+        "1 tbsp goji berries",
+        "1 tbsp chia seeds"
+      ],
+      "method": [
+        "Tip half the raspberries and all of the orange juice in a pan. Simmer until the raspberries soften, about 5 mins.",
+        "Meanwhile stir the oats, milk and 450ml water in a pan over a low heat until creamy. Top with the raspberry compote, remaining raspberries, orange slices, banana, almond butter, goji berries and chia seeds."
+      ]
+    },
+    {
+      "title": "Banana & tahini porridge",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2018/06/banana-tahini-porridge.jpg",
+      "description": "Pep up your porridge with a tahini drizzle and toasted sesame seeds. Oats and tahini help to promote good digestion so you can start your day the healthy way",
+      "timeForPrep": "5 mins",
+       "category":"breakfast",
+      "nutritions": [
+        { "kcal": 431, "title": "kcal" },
+        { "kcal": "17g", "title": "fat" },
+        { "kcal": "53g", "title": "carbs" },
+        { "kcal": "18g", "title": "sugers" },
+        { "kcal": "14g", "title": "protain" }
+      ],
+      "ingredients": [
+        "1 tbsp tahini",
+        "150ml milkof your choice, plus 1 tbsp",
+        "100g porridge oats",
+        "2 small bananas, sliced",
+        "seedsfrom 2 cardamom pods, crushed",
+        "1 tbsp toasted sesame seeds"
+      ],
+      "method": [
+        "Mix the tahini with 1 tbsp milk and 1 tbsp water. Put the oats, 1 sliced banana, cardamom, 100ml milk and 300ml water in a pan with a pinch of salt. Cook over a medium heat for 5 mins, stirring, until creamy and hot.",
+        "Divide between two bowls. Pour over the remaining milk, then top with the remaining sliced banana. Drizzle over the tahini mixture and sprinkle over the toasted sesame seeds."
+      ]
+    },
+    {
+      "title": "Greek bouyiourdi",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/05/greek-bouiyourdi.jpg",
+      "description": "Enjoy this baked feta with tomatoes, garlic and chilli as part of a meze lunch. It’s perfect for scooping up with warm pitta breads alongside a Greek salad",
+      "timeForPrep": "10 mins",
+       "category":"lunch",
+      "nutritions": [
+        { "kcal": 243, "title": "kcal" },
+        { "kcal": "21g", "title": "fat" },
+        { "kcal": "4g", "title": "carbs" },
+        { "kcal": "4g", "title": "sugers" },
+        { "kcal": "8g", "title": "protain" }
+      ],
+      "ingredients": [
+        "3 large ripe tomatoes",
+        "1 garlic clove, crushed",
+        "200g block feta",
+        "1 large mild green chilli, or 1 green pepper, sliced",
+        "1 tsp roughly chopped oregano leaves",
+        "4 tbsp olive oil",
+        "warmed pitta breads, to serve"
+      ],
+      "method": [
+        "Cut 1 tomato through the middle, then cut two slices from the centre and set aside. Scoop the seeds from the rest of the tomato, then grate the flesh, discarding the skin. Deseed and grate the rest of the tomatoes in the same way, then mix the grated flesh with the garlic. Season and spoon into a 16cm baking dish.",
+        "Heat the oven to 200C/180C fan/gas 6. Nestle the feta block in the garlicky tomatoes, then top with the sliced tomatoes, the chilli, oregano, olive oil and a pinch of sea salt. Cover the dish and bake for 15 mins, then uncover and bake for a further 15 mins. Serve warm with the pitta breads on the side for dunking."
+      ]
+    }
+  ]
+}
