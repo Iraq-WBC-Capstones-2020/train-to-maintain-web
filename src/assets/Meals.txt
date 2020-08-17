@@ -6,6 +6,7 @@
       "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/06/courgette-and-tomato-gratin.jpg",
       "description": "Make the most of courgette and tomatoes in this gratin, with melted mozzarella, fresh basil and a crunchy breadcrumb topping. It’s a great freezing dish",
       "timeForPrep": "20 mins",
+      "category":"lunch",
       "nutritions": [
         {
           "kcal": 427,
@@ -51,9 +52,10 @@
     {
       "id": "2",
       "title": "Falafel lunchbox",
-      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/05/falafel-lunch-box.jpg",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2020/05/falafel-lunch-box.jpg?itok=Sl3rbtLQ",
       "description": "Make this falafel salad fun with a bento-style lunchbox. It’s great for toddlers and young children who prefer lunches with lots of individual elements. Use shop-bought falafel or make our Edamame falafel",
       "timeForPrep": "10 mins",
+       "category":"lunch",
       "nutritions": [
         { "kcal": 500, "title": "kcal" },
         { "kcal": "16g", "title": "fat" },
@@ -84,6 +86,7 @@
       "image": "https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--350512_11.jpg",
       "description": "Low in fat and a great source of iron, this Japanese-inspired meal gets the ‘superhealthy’ tag",
       "timeForPrep": "15 mins",
+      "category":"breakfast",
       "nutritions": [
         { "kcal": 419, "title": "kcal" },
         { "kcal": "7g", "title": "fat" },
@@ -115,6 +118,7 @@
       "image": "https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--922495_11.jpg",
       "description": "This storecupboard supper is super quick and superhealthy to boot",
       "timeForPrep": "5 mins",
+      "category":"dinner",
       "nutritions": [
         { "kcal": 495, "title": "kcal" },
         { "kcal": "14g", "title": "fat" },
@@ -144,6 +148,7 @@
       "image": "https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--683463_11.jpg",
       "description": "This summery recipe has the ideal combination of slow-releasing carbs, lean protein and heart-friendly fats ",
       "timeForPrep": "15 mins",
+         "category":"dinner",
       "nutritions": [
         { "kcal": 497, "title": "kcal" },
         { "kcal": "15g", "title": "fat" },
@@ -174,6 +179,7 @@
       "image": "https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--1309531_1.jpg",
       "description": "Use a sustainable white fish like hake and serve up this healthy, Indian spice-pot with green beans and coriander",
       "timeForPrep": "10 mins",
+         "category":"dinner",
       "nutritions": [
         { "kcal": 224, "title": "kcal" },
         { "kcal": "7g", "title": "fat" },
@@ -203,10 +209,12 @@
       ]
     },
     {
+       "id": "7",
       "title": "Healthy porridge bowl",
       "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/01/healthy-porridge.jpg",
       "description": "Start your day right with this filling bowl of oats, berries, banana and seeds. It's healthy and packed with nutrients to fuel body and mind",
       "timeForPrep": "10 mins",
+       "category":"breakfast",
       "nutritions": [
         { "kcal": 533, "title": "kcal" },
         { "kcal": "19g", "title": "fat" },
@@ -230,10 +238,12 @@
       ]
     },
     {
+       "id": "8",
       "title": "Banana & tahini porridge",
       "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2018/06/banana-tahini-porridge.jpg",
       "description": "Pep up your porridge with a tahini drizzle and toasted sesame seeds. Oats and tahini help to promote good digestion so you can start your day the healthy way",
       "timeForPrep": "5 mins",
+       "category":"breakfast",
       "nutritions": [
         { "kcal": 431, "title": "kcal" },
         { "kcal": "17g", "title": "fat" },
@@ -255,10 +265,12 @@
       ]
     },
     {
+       "id": "9",
       "title": "Greek bouyiourdi",
       "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/05/greek-bouiyourdi.jpg",
       "description": "Enjoy this baked feta with tomatoes, garlic and chilli as part of a meze lunch. It’s perfect for scooping up with warm pitta breads alongside a Greek salad",
       "timeForPrep": "10 mins",
+       "category":"lunch",
       "nutritions": [
         { "kcal": 243, "title": "kcal" },
         { "kcal": "21g", "title": "fat" },

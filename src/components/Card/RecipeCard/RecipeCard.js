@@ -4,6 +4,7 @@ import categoryIcon from './img/meal-icon.png';
 import durationIcon from './img/clock.svg';
 import propTypes from 'prop-types';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function RecipeCard({
   image,
@@ -12,10 +13,11 @@ export default function RecipeCard({
   category,
   duration,
 }) {
+  const { t } = useTranslation();
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}
-      className="lg:w-1/4 xl:w-1/4 md:w-1/3 sm:w-full overflow-hidden shadow-lg m-4"
+      className="w-full overflow-hidden shadow-lg "
     >
       <img
         className="h-48 xl:h-64 w-full mx-auto object-cover"
@@ -61,7 +63,7 @@ export default function RecipeCard({
           className="bg-primary text-white active:bg-pink-600 text-sm px-3 py-2 hover:bg-pinky shadow hover:shadow-lg m-2"
           type="button"
         >
-          See Recipe
+          {t('buttons.seerecipe')}
         </button>
       </div>
     </motion.div>
