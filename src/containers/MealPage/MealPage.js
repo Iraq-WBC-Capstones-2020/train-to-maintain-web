@@ -20,9 +20,8 @@ const MealPage = ({ match }) => {
         setMeal(singleMeal[0]);
       });
   };
-  console.log(meal.ingredients);
   return (
-    <div className="p-5 container">
+    <div className="p-5 container-center">
       <div className=" shadow-lg max-w-lg w-full md:w-11/12 lg:w-full lg:h-56 md:max-w-full md:flex md:justify-center">
         <img
           src={meal.image}
