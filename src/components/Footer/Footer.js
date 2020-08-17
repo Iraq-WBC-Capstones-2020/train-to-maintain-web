@@ -69,13 +69,13 @@ const Footer = () => {
                   ألعربية
                 </li>
               ) : (
-                  <li
-                    className="rounded-sm px-3 py-1 hover:bg-purple-700"
-                    onClick={() => handleLanguageToggle('en')}
-                  >
-                    English
-                  </li>
-                )}
+                <li
+                  className="rounded-sm px-3 py-1 hover:bg-purple-700"
+                  onClick={() => handleLanguageToggle('en')}
+                >
+                  English
+                </li>
+              )}
             </ul>
           </div>
         </div>
