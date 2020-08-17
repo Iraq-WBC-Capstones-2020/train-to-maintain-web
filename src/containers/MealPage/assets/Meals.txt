@@ -51,7 +51,7 @@
     {
       "id": "2",
       "title": "Falafel lunchbox",
-      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/05/falafel-lunch-box.jpg0",
+      "image": "https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/05/falafel-lunch-box.jpg",
       "description": "Make this falafel salad fun with a bento-style lunchbox. It’s great for toddlers and young children who prefer lunches with lots of individual elements. Use shop-bought falafel or make our Edamame falafel",
       "timeForPrep": "10 mins",
       "nutritions": [
