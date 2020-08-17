@@ -19,7 +19,7 @@ const Footer = () => {
       <img
         src={workoutImage}
         className="object-cover bg-center h-auto md:h-64 sm:h-64 w-full absolute"
-        alt="workout"
+        alt="Two young couple workout"
       />
       <h1 className="text-4xl p-5 select-none z-0 relative">
         Train to
