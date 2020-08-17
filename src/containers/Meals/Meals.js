@@ -7,7 +7,7 @@ const Meals = () => {
   const [category, setCategory] = useState('All');
   useEffect(() => {
     fetchMeals();
-  }, [category]);
+  }, [category, meals]);
 
   const fetchMeals = () => {
     fetch(mealsfile)
