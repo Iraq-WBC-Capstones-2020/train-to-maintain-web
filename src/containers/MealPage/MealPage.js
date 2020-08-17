@@ -3,6 +3,7 @@ import { faClock } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './MealPage.css';
 import MealData from './assets/Meals.txt';
+import propTypes from 'prop-types';
 
 const MealPage = ({ match }) => {
   const [meal, setMeal] = useState({});
@@ -99,5 +100,7 @@ const MealPage = ({ match }) => {
     </div>
   );
 };
-
+MealPage.propTypes = {
+  match: propTypes.object.isRequired,
+};
 export default MealPage;
