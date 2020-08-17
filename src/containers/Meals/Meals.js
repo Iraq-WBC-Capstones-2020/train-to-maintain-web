@@ -3,9 +3,13 @@ import RecipeCard from '../../components/Card/RecipeCard/RecipeCard';
 import mealsfile from '../../assets/Meals.txt';
 import { Link } from 'react-router-dom';
 const Meals = () => {
-  const [meals, setMeals] = useState();
+  const [meals, setMeals] = useState([]);
   const [category, setCategory] = useState('All');
   useEffect(() => {
+    fetchMeals();
+  }, [category]);
+
+  const fetchMeals = () => {
     fetch(mealsfile)
       .then((resp) => resp.json())
       .then((data) => {
@@ -14,8 +18,7 @@ const Meals = () => {
         );
         category === 'All' ? setMeals(data.meals) : setMeals(filtered);
       });
-  }, [category]);
-
+  };
   const handleCategoryChange = (type) => {
     setCategory(type);
   };
