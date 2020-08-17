@@ -12,19 +12,19 @@
           "title": "kcal"
         },
         {
-          "kcal": 23,
+          "kcal": "23g",
           "title": "fat"
         },
         {
-          "kcal": 33,
+          "kcal": "33g",
           "title": "carbs"
         },
         {
-          "kcal": 6,
+          "kcal": "6g",
           "title": "sugers"
         },
         {
-          "kcal": 20,
+          "kcal": "20g",
           "title": "protain"
         }
       ],
@@ -56,10 +56,10 @@
       "timeForPrep": "10 mins",
       "nutritions": [
         { "kcal": 500, "title": "kcal" },
-        { "kcal": 16, "title": "fat" },
-        { "kcal": 61, "title": "carbs" },
-        { "kcal": 15, "title": "sugers" },
-        { "kcal": 19, "title": "protain" }
+        { "kcal": "16g", "title": "fat" },
+        { "kcal": "61g", "title": "carbs" },
+        { "kcal": "15g", "title": "sugers" },
+        { "kcal": "19g", "title": "protain" }
       ],
       "ingredients": [
         "250g pouch cooked grains or lentils (we used red & white quinoa)",
@@ -86,10 +86,10 @@
       "timeForPrep": "15 mins",
       "nutritions": [
         { "kcal": 419, "title": "kcal" },
-        { "kcal": 7, "title": "fat" },
-        { "kcal": 53, "title": "carbs" },
-        { "kcal": 4, "title": "sugers" },
-        { "kcal": 39, "title": "protain" }
+        { "kcal": "7g", "title": "fat" },
+        { "kcal": "53g", "title": "carbs" },
+        { "kcal": "4g", "title": "sugers" },
+        { "kcal": "39g", "title": "protain" }
       ],
       "ingredients": [
         "120g brown basmati rice",
@@ -117,10 +117,10 @@
       "timeForPrep": "5 mins",
       "nutritions": [
         { "kcal": 495, "title": "kcal" },
-        { "kcal": 14, "title": "fat" },
-        { "kcal": 77, "title": "carbs" },
-        { "kcal": 5, "title": "sugers" },
-        { "kcal": 21, "title": "protain" }
+        { "kcal": "14g", "title": "fat" },
+        { "kcal": "77g", "title": "carbs" },
+        { "kcal": "5g", "title": "sugers" },
+        { "kcal": "21g", "title": "protain" }
       ],
       "ingredients": [
         "400g spaghetti",
@@ -146,10 +146,10 @@
       "timeForPrep": "15 mins",
       "nutritions": [
         { "kcal": 497, "title": "kcal" },
-        { "kcal": 15, "title": "fat" },
-        { "kcal": 61, "title": "carbs" },
-        { "kcal": 6, "title": "sugers" },
-        { "kcal": 34, "title": "protain" }
+        { "kcal": "15g", "title": "fat" },
+        { "kcal": "61g", "title": "carbs" },
+        { "kcal": "6g", "title": "sugers" },
+        { "kcal": "34g", "title": "protain" }
       ],
       "ingredients": [
         "200g brown basmati rice",
@@ -176,10 +176,10 @@
       "timeForPrep": "10 mins",
       "nutritions": [
         { "kcal": 224, "title": "kcal" },
-        { "kcal": 7, "title": "fat" },
-        { "kcal": 11, "title": "carbs" },
-        { "kcal": 9, "title": "sugers" },
-        { "kcal": 31, "title": "protain" }
+        { "kcal": "7g", "title": "fat" },
+        { "kcal": "11g", "title": "carbs" },
+        { "kcal": "9g", "title": "sugers" },
+        { "kcal": "31g", "title": "protain" }
       ],
       "ingredients": [
         "6 garlic cloves",
@@ -209,10 +209,10 @@
       "timeForPrep": "10 mins",
       "nutritions": [
         { "kcal": 533, "title": "kcal" },
-        { "kcal": 19, "title": "fat" },
-        { "kcal": 66, "title": "carbs" },
-        { "kcal": 14, "title": "sugers" },
-        { "kcal": 17, "title": "protain" }
+        { "kcal": "19g", "title": "fat" },
+        { "kcal": "66g", "title": "carbs" },
+        { "kcal": "14g", "title": "sugers" },
+        { "kcal": "17g", "title": "protain" }
       ],
       "ingredients": [
         "100g frozen raspberries",
@@ -236,10 +236,10 @@
       "timeForPrep": "5 mins",
       "nutritions": [
         { "kcal": 431, "title": "kcal" },
-        { "kcal": 17, "title": "fat" },
-        { "kcal": 53, "title": "carbs" },
-        { "kcal": 18, "title": "sugers" },
-        { "kcal": 14, "title": "protain" }
+        { "kcal": "17g", "title": "fat" },
+        { "kcal": "53g", "title": "carbs" },
+        { "kcal": "18g", "title": "sugers" },
+        { "kcal": "14g", "title": "protain" }
       ],
       "ingredients": [
         "1 tbsp tahini",
@@ -261,10 +261,10 @@
       "timeForPrep": "10 mins",
       "nutritions": [
         { "kcal": 243, "title": "kcal" },
-        { "kcal": 21, "title": "fat" },
-        { "kcal": 4, "title": "carbs" },
-        { "kcal": 4, "title": "sugers" },
-        { "kcal": 8, "title": "protain" }
+        { "kcal": "21g", "title": "fat" },
+        { "kcal": "4g", "title": "carbs" },
+        { "kcal": "4g", "title": "sugers" },
+        { "kcal": "8g", "title": "protain" }
       ],
       "ingredients": [
         "3 large ripe tomatoes",
