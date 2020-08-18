@@ -2,7 +2,7 @@
   "workouts": [
     {
       "title": "CHEST WORKOUT",
-      "image": "https://i.ytimg.com/vi/eVG-KfxPPbk/maxresdefault.jpg",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/dumbbell-bench-press-chest-weights-2-exercise_landscape.jpg",
       "duration": "30 min",
       "type": "Beginner",
       "description": "Effective chest workout that hits all three chets pecs (inner,middle, and lower)",
@@ -34,7 +34,7 @@
     },
     {
       "title": "TRICEPS WORKOUT",
-      "image": "https://i.ibb.co/zm9bPvC/Guy-Back-Arm-Pose-Tricep.jpg",
+      "image": "https://www.bodybuilding.com/images/2020/march/the-ultimate-dumbbell-triceps-workout-header-960x540.jpg",
       "duration": "20 min",
       "type": "Beginner",
       "description": "Effective triceps workout that hits all three tricep heads (long,lateral, and medial head)",
@@ -61,7 +61,7 @@
     },
     {
       "title": "BICEPS WORKOUT",
-      "image": "https://i.ytimg.com/vi/aPBIw30HQnU/maxresdefault.jpg",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/701/images/slideshow2/5-decline-db-curls-1496756881.jpg?resize=480:*",
       "duration": "20 min",
       "type": "Beginner",
       "description": "Effective biceps workout that hits the two heads of the bicep (Long and short head) ",
@@ -88,7 +88,7 @@
     },
     {
       "title": "ARM WORKOUT",
-      "image": "https://i.ytimg.com/vi/aPBIw30HQnU/maxresdefault.jpg",
+      "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB10ZqUN.img?h=0&w=600&m=6&q=60&u=t&o=f&l=f",
       "duration": "45 min",
       "type": "Beginner",
       "description": "Set of exercises that targets all of the arm muscles (triceps and biceps) ",
@@ -130,7 +130,7 @@
     },
     {
       "title": "CARDIO WORKOUT",
-      "image": "https://i.ibb.co/f4qcWfh/Mia-Ria-Fitness-2019-151.jpg",
+      "image": "https://cf.ltkcdn.net/exercise/images/orig/246767-1600x1030-cardio-workout-benefits-heart.jpg",
       "duration": "5-10 min",
       "type": "Beginner",
       "description": "Incline treadmill walk at 4 degrees, at 4 miles per hour (4 speed) for 25 minutes. If you need to go slower, that's okay. If you start working up a good sweat in 5-10 minutes, you know it's the right speed. If you feel like you're going to die after 60 seconds, it's a little too high.",
@@ -152,7 +152,7 @@
     },
     {
       "title": "ABS WORKOUT",
-      "image": "https://i.ibb.co/WK135X6/d-better-fit-Chris-Powell-Abs-190118-989476-5.jpg",
+      "image": "https://www.wellandgood.com/wp-content/uploads/2019/09/Getty-Images-fizkes-best-obliques-exercises.jpg",
       "description": "Do this routine after every single weight training session twice, and with zero breaks at all. So, in total, you do two 25-second planks (50 seconds total), 2 sets of 15 leg raises (30 total), and 2 sets of 21 total bicycle crunches (42 total). ",
       "duration": "60min",
       "type": "Beginner",
@@ -180,7 +180,7 @@
     },
     {
       "title": "BACK WORKOUT",
-      "image": "https://cdn.mos.cms.futurecdn.net/nhrgrnDTfrfsAPDiZWsDk6-768-80.jpg",
+      "image": "https://lh3.googleusercontent.com/proxy/pPwIFNPNs7lw6PJKocafhaJdgzdSu7Nez7TlmwW7uI2nguYw2443bHaufwWfi2M2dKx1tvy3e2yDBCe7R96OqnlG3_WqRpPmsHdVrSsA",
       "duration": "30 min",
       "type": "Beginner",
       "description": "Effective back workout that hits all of the back muscles ",
@@ -212,7 +212,7 @@
     },
     {
       "title": "SHOULDER WORKOUT",
-      "image": "https://i.ibb.co/r2SpLbm/Jeremy-Buendia-Lateral-Dumbbell-Raise.jpg",
+      "image": "https://www.bodybuilding.com/images/2018/august/shoulder-workouts-for-women-4-workouts-to-build-size-and-shape-2-700xh.jpg",
       "duration": "25 min",
       "type": "Beginner",
       "description": "Shoulder workout that hits all of the three shoulder heads (front, middle, and medial)",
@@ -240,7 +240,7 @@
     },
     {
       "title": "LEG WORKOUT",
-      "image": "https://i.ibb.co/7K89mqN/Leg-Extension-1109.jpg",
+      "image": "https://ymcamidtn.org/sites/default/files/styles/media_full/public/2019-10/dumbbell-legs-full.jpg?itok=abGvF7J_",
       "duration": "30 min",
       "type": "Beginner",
       "description": "A set of exercises that targets almost all of the leg muscles (thighs and hamstrings)",

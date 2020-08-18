@@ -31,7 +31,7 @@ export default function RecipeCard({
 
         <div className="my-2 flex justify-center items-center">
           <div className=" flex flex-col justify-center items-center w-1/3">
-            <img src={caloriesIcon} className="w-1/4 mb-1" alt='calories' />
+            <img src={caloriesIcon} className="w-1/4 mb-1" alt="calories" />
             <span className="bg-gray-200 rounded-full text-sm text-black text-center p-1">
               {calories}
             </span>

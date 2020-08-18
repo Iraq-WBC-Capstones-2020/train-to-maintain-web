@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import RecipeCard from '../../components/Card/RecipeCard/RecipeCard';
 import mealsfile from '../../assets/Meals.txt';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 const Meals = () => {
   const [meals, setMeals] = useState([]);
@@ -21,7 +22,7 @@ const Meals = () => {
   };
   return (
     <div className="w-screen  flex flex-col mt-8">
-      <div className=" flex items-center justify-end md:mr-16 mr-8 mb-8 ">
+      <div className=" flex items-center justify-end md:mr-16 mr-8 mb-8 z-10 ">
         <div className="group inline-block text-poppins text-secondary">
           <button className="outline-none focus:outline-none border px-3 py-1 bg-primary rounded-sm flex items-center min-w-32">
             <span className="pr-1 font-semibold flex-1">{category}</span>
@@ -68,7 +69,11 @@ const Meals = () => {
         </div>
       </div>
 
-      <div className=" flex flex-wrap justify-center mb-20">
+      <motion.div
+        animate={{ scale: 0.95 }}
+        transition={{ duration: 1 }}
+        className=" flex flex-wrap justify-center mb-20"
+      >
         {meals.map((meal) => {
           return (
             <>
@@ -88,7 +93,7 @@ const Meals = () => {
             </>
           );
         })}
-      </div>
+      </motion.div>
     </div>
   );
 };
