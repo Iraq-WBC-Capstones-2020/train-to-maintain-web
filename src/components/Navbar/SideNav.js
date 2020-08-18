@@ -5,7 +5,9 @@ import './SideNav.css';
 import { Link } from 'react-router-dom';
 import { Swipeable } from 'react-swipeable';
 import PropTypes from 'prop-types';
+import { useTranslation } from 'react-i18next';
 const SideNav = ({ navbarOpen, handleToggleMenuClick, handleCloseNavbar }) => {
+  const { t } = useTranslation();
   const sideNavClasses = navbarOpen ? 'side-nav open' : 'side-nav';
   return (
     <Swipeable onSwiped={handleCloseNavbar}>
@@ -21,10 +23,10 @@ const SideNav = ({ navbarOpen, handleToggleMenuClick, handleCloseNavbar }) => {
         >
           <FontAwesomeIcon icon={faTimes} />
         </button>
-        <ul className="h-64 flex flex-col justify-evenly items-center">
+        <ul className="h-64 flex flex-col justify-evenly items-center uppercase">
           <li>
             <Link onClick={handleCloseNavbar} to="/home" className="font-bold">
-              HOME
+              {t('navbar.home')}
             </Link>
           </li>
 
@@ -34,19 +36,25 @@ const SideNav = ({ navbarOpen, handleToggleMenuClick, handleCloseNavbar }) => {
               to="/workouts"
               className="font-bold"
             >
-              WORKOUTS
+              {t('navbar.workouts')}
             </Link>
           </li>
 
           <li>
             <Link onClick={handleCloseNavbar} to="/meals" className="font-bold">
-              MEALS
+              {t('navbar.meals')}
+            </Link>
+          </li>
+
+          <li>
+            <Link onClick={handleCloseNavbar} to="/blogs" className="font-bold">
+              {t('navbar.blogs')}
             </Link>
           </li>
 
           <li>
             <Link onClick={handleCloseNavbar} to="/about" className="font-bold">
-              ABOUT
+              {t('navbar.about')}
             </Link>
           </li>
         </ul>

@@ -2,8 +2,10 @@ import React from 'react';
 import './SocialMedia.css';
 import { TwitterTweetEmbed } from 'react-twitter-embed';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const SocialMedia = () => {
+  const { t } = useTranslation();
   const tweets = [
     { id: '1291554671321067523' },
     { id: '1292037842722525184' },
@@ -15,7 +17,7 @@ const SocialMedia = () => {
   return (
     <section className="social-media   lg:h-xxxl md:h-xxl flex flex-col items-center py-8 ">
       <h1 className="md:text-3xl text-lg text-center font-bold text-secondary lg:mb-32 w-10/12">
-        Get the most out of socail media content creators
+        {t('socialmedia.header')}
       </h1>
       <div className="flex  items-center w-screen   overflow-x-scroll disable-scrollbar lg:mb-8">
         {tweets.map((tweet, index) => {
