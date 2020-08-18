@@ -88,8 +88,8 @@ const MealPage = ({ match }) => {
             <div className="font-bold text-1xl text-primary p-6">
               <ol className="list-decimal p-1">
                 {meal.id &&
-                  meal.ingredients.map((ingredient, idx) => {
-                    return <li key={idx}>{ingredient}</li>;
+                  meal.method.map((method, idx) => {
+                    return <li key={idx}>{method}</li>;
                   })}
               </ol>
             </div>
