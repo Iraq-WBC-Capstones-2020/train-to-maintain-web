@@ -180,7 +180,7 @@
     },
     {
       "title": "BACK WORKOUT",
-      "image": "https://lh3.googleusercontent.com/proxy/pPwIFNPNs7lw6PJKocafhaJdgzdSu7Nez7TlmwW7uI2nguYw2443bHaufwWfi2M2dKx1tvy3e2yDBCe7R96OqnlG3_WqRpPmsHdVrSsA",
+      "image": "https://ne-media-cdn.puregym.com/media/802814/back-workout-for-beginners.jpg?quality=80&mode=pad&width=992",
       "duration": "30 min",
       "type": "Beginner",
       "description": "Effective back workout that hits all of the back muscles ",
