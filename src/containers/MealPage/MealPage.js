@@ -42,7 +42,7 @@ const MealPage = ({ match }) => {
       </div>
       <div>
         <div className="border-b-2">
-          <h1 className="text-3xl pl-4 py-3">Nutritions</h1>
+          <h1 className="text-3xl pl-4 py-3">Nutritions Facts:</h1>
           <div className="pb-10 flex flex-row flex-wrap items-center md:flex-row md:m-2 mt-2">
             {meal.id &&
               meal.nutritions.map((info, idx) => {
@@ -82,7 +82,7 @@ const MealPage = ({ match }) => {
         <div>
           <div className=" m-5 neumorphism  bg-secondary max-h-lg max-w-sm sm:w-1/2 lg:w-full md:w-full overflow-hidden ">
             <h1 className="text-2xl text-darkgray font-bold text-center">
-              Method
+              Methods
             </h1>
 
             <div className="font-bold text-1xl text-primary p-6">
