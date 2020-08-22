@@ -26,7 +26,7 @@
         },
         {
           "kcal": "20g",
-          "title": "protain"
+          "title": "protein"
         }
       ],
       "ingredients": [
@@ -61,7 +61,7 @@
         { "kcal": "16g", "title": "fat" },
         { "kcal": "61g", "title": "carbs" },
         { "kcal": "15g", "title": "sugers" },
-        { "kcal": "19g", "title": "protain" }
+        { "kcal": "19g", "title": "protein" }
       ],
       "ingredients": [
         "250g pouch cooked grains or lentils (we used red & white quinoa)",
@@ -92,7 +92,7 @@
         { "kcal": "7g", "title": "fat" },
         { "kcal": "53g", "title": "carbs" },
         { "kcal": "4g", "title": "sugers" },
-        { "kcal": "39g", "title": "protain" }
+        { "kcal": "39g", "title": "protein" }
       ],
       "ingredients": [
         "120g brown basmati rice",
@@ -124,7 +124,7 @@
         { "kcal": "14g", "title": "fat" },
         { "kcal": "77g", "title": "carbs" },
         { "kcal": "5g", "title": "sugers" },
-        { "kcal": "21g", "title": "protain" }
+        { "kcal": "21g", "title": "protein" }
       ],
       "ingredients": [
         "400g spaghetti",
@@ -154,7 +154,7 @@
         { "kcal": "15g", "title": "fat" },
         { "kcal": "61g", "title": "carbs" },
         { "kcal": "6g", "title": "sugers" },
-        { "kcal": "34g", "title": "protain" }
+        { "kcal": "34g", "title": "protein" }
       ],
       "ingredients": [
         "200g brown basmati rice",
@@ -185,7 +185,7 @@
         { "kcal": "7g", "title": "fat" },
         { "kcal": "11g", "title": "carbs" },
         { "kcal": "9g", "title": "sugers" },
-        { "kcal": "31g", "title": "protain" }
+        { "kcal": "31g", "title": "protein" }
       ],
       "ingredients": [
         "6 garlic cloves",
@@ -220,7 +220,7 @@
         { "kcal": "19g", "title": "fat" },
         { "kcal": "66g", "title": "carbs" },
         { "kcal": "14g", "title": "sugers" },
-        { "kcal": "17g", "title": "protain" }
+        { "kcal": "17g", "title": "protein" }
       ],
       "ingredients": [
         "100g frozen raspberries",
@@ -249,7 +249,7 @@
         { "kcal": "17g", "title": "fat" },
         { "kcal": "53g", "title": "carbs" },
         { "kcal": "18g", "title": "sugers" },
-        { "kcal": "14g", "title": "protain" }
+        { "kcal": "14g", "title": "protein" }
       ],
       "ingredients": [
         "1 tbsp tahini",
@@ -276,7 +276,7 @@
         { "kcal": "21g", "title": "fat" },
         { "kcal": "4g", "title": "carbs" },
         { "kcal": "4g", "title": "sugers" },
-        { "kcal": "8g", "title": "protain" }
+        { "kcal": "8g", "title": "protein" }
       ],
       "ingredients": [
         "3 large ripe tomatoes",
