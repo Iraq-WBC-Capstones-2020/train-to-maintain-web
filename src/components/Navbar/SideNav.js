@@ -13,7 +13,7 @@ const SideNav = ({ navbarOpen, handleToggleMenuClick, handleCloseNavbar }) => {
     <Swipeable onSwiped={handleCloseNavbar}>
       <nav
         className={
-          `bg-darkgray h-screen w-3/4 md:w-2/4  fixed top-0 right-0 z-10 text-secondary lg:hidden flex flex-col justify-evenly ` +
+          `bg-darkgray h-screen w-3/4 md:w-2/4  fixed top-0 right-0 z-30 text-secondary lg:hidden flex flex-col justify-evenly ` +
           sideNavClasses
         }
       >
