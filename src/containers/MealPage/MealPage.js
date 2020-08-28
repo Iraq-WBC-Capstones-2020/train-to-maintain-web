@@ -82,7 +82,7 @@ const MealPage = ({ match }) => {
         <div>
           <div className=" m-5 neumorphism  bg-secondary max-h-lg max-w-sm sm:w-1/2 lg:w-full md:w-full overflow-hidden ">
             <h1 className="text-2xl text-darkgray font-bold text-center">
-              Methods
+              Instructions
             </h1>
 
             <div className="font-bold text-1xl text-primary p-6">
